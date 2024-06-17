@@ -1,4 +1,7 @@
 # Table of contents
 
-* [Vision](README.md)
+* [DeGym](README.md)
 * [Roadmap](roadmap.md)
+* [Vision](vision.md)
+* [Roadmap](roadmap-1.md)
+* [$DGYM Tokenomics](usddgym-tokenomics.md)
