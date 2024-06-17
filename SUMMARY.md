@@ -1,6 +1,7 @@
 # Table of contents
 
-* [DeGym](README.md)
+* [Decentralized Gym Access](README.md)
 * [Vision](vision.md)
 * [Roadmap](roadmap.md)
 * [$DGYM Tokenomics](usddgym-tokenomics.md)
+* [Governance](governance.md)

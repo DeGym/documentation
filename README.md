@@ -1,6 +1,20 @@
-# DeGym
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
 
-Vision Statement: To revolutionize the fitness industry by creating a decentralized, gamified platform that seamlessly connects gym providers with consumers, enhancing gym engagement and experience through blockchain technology.
+# Decentralized Gym Access
+
+This project is a decentralized application for managing gym access and rewards using blockchain technology. Users can purchase NFTs for access, gyms stake tokens as collateral, and various rewards systems are implemented.
 
 ### Long-Term Goals
 
