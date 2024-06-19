@@ -20,3 +20,16 @@
 * [Reward](technical/reward.md)
 * [Whitepaper](technical/whitepaper.md)
 * [Roadmap](technical/roadmap.md)
+
+## FAQs
+
+* [Page 1](faqs/page-1.md)
+
+## Roadmap
+
+* [Page 2](roadmap/page-2.md)
+
+## Contact and Support
+
+* [Support channels](contact-and-support/support-channels.md)
+* [Comunity](contact-and-support/comunity.md)
