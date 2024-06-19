@@ -19,15 +19,15 @@
 * [Smart Contracts](technical/smart-contracts.md)
 * [Reward](technical/reward.md)
 * [Whitepaper](technical/whitepaper.md)
-* [Roadmap](technical/roadmap.md)
 
 ## FAQs
 
-* [Page 1](faqs/page-1.md)
+* [Question Foobar](faqs/question-foobar.md)
 
 ## Roadmap
 
-* [Page 2](roadmap/page-2.md)
+* [Q1 2024](roadmap/q1-2024.md)
+* [Roadmap](roadmap/roadmap.md)
 
 ## Contact and Support
 
