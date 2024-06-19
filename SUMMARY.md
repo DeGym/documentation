@@ -26,7 +26,8 @@
 
 ## Roadmap
 
-* [Q1 2024](roadmap/q1-2024.md)
+* [Q2 2024](roadmap/q2-2024.md)
+* [Q3 2024](roadmap/q3-2024.md)
 * [Roadmap](roadmap/roadmap.md)
 
 ## Contact and Support
