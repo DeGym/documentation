@@ -9,6 +9,5 @@
 
 ***
 
-* [Vision](vision.md)
 * [$DGYM Tokenomics](usddgym-tokenomics.md)
 * [Governance](governance.md)
