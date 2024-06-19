@@ -32,4 +32,4 @@
 ## Contact and Support
 
 * [Support channels](contact-and-support/support-channels.md)
-* [Comunity](contact-and-support/comunity.md)
+* [Community](contact-and-support/community.md)
