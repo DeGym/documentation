@@ -5,3 +5,4 @@
 * [Roadmap](roadmap.md)
 * [$DGYM Tokenomics](usddgym-tokenomics.md)
 * [Governance](governance.md)
+* [Value Propositions](value-propositions.md)
