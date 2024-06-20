@@ -21,7 +21,5 @@ Consumers begin their journey by understanding the unique value DeGym DAO offers
 
 DeGym offers comprehensive support through FAQs, customer service channels, and community forums, ensuring that consumers have a smooth and enjoyable fitness experience.
 
-This consumer journey highlights the innovative integration of blockchain with fitness, enhancing the accessibility and enjoyment of gym memberships.
-
 
 
