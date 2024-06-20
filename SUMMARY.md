@@ -9,6 +9,7 @@
 
 ## Gym DAO
 
+* [Membership NFTs](gym-dao/membership-nfts.md)
 * [Consumer](gym-dao/consumer.md)
 * [Provider](gym-dao/provider.md)
 * [Staker](gym-dao/staker.md)
