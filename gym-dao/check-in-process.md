@@ -32,7 +32,7 @@ The check-in process in DeGym DAO leverages a robust smart contract system desig
 %%{init: {'theme': 'forest'}}%%
 
 sequenceDiagram
-    participant U as User
+    participant U as Consumer
     participant App as DeGym App
     participant SC as Smart Contract
     participant B as BlockDAG/Blockchain
@@ -40,7 +40,7 @@ sequenceDiagram
 
     U->>App: Initiate Check-in
     App->>SC: Trigger Smart Contract
-    SC->>B: Validate User NFT & Gym Stake
+    SC->>B: Validate Consumer NFT & Gym Stake
     B-->>SC: Confirmation of Validity
     SC->>SC: Check Membership Tier & Gym Compatibility
     SC->>G: Transfer Payment (if valid)
