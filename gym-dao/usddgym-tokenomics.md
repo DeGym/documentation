@@ -10,49 +10,60 @@ Token Contract Standard: ERC20
 
 Token Contract Address: 0x...
 
-### Token Distribution
+### Distribution
 
 Initial Distribution Plan:
 
-* Founders And Team: 15%
-  * Vesting period: 4 years with a 1-year cliff.
-* Advisors: 5%
-  * Vesting period: 2 years
-* Community and Ecosystem Development: 20%
-  * Incentives for early users, marketing campaings, and partnerships.
-* Staking and Rewards: 30%
-  * Reserved for user and gym provider staking rewards
-* Liquidity Pool: 10%
-  * To provide liquidity on decentralized exchanges.
-* Public Sale: 15%
-  * Token sale to raise initial funds.
-* Reserve Fund: 5%
-  * For unforeseen circumstances and future needs.
+&#x20;
+
+```mermaid
+%%{init: {'theme': 'forest'}}%%
+
+pie
+    title $DGYM Token Distribution
+    "Team & Advisors" : 15
+    "Ecosystem Fund" : 20
+    "Staking Rewards" : 25
+    "Public Sale" : 15
+    "Private Sale" : 10
+    "Reserve" : 15
+```
+
+### Allocation
+
+| Allocation         | Percentage of Total Supply | Explanation                                         |
+|--------------------|----------------------------|-----------------------------------------------------|
+| Team & Advisors    | 15%                        | Tokens allocated to the team and advisors for their ongoing contributions and support. |
+| Ecosystem Fund     | 20%                        | Reserved for fostering the ecosystem, funding partnerships, and community incentives. |
+| Staking Rewards    | 25%                        | Distributed to consumers who stake their tokens as part of the network's security and operation incentives. |
+| Public Sale        | 15%                        | Tokens sold to the general public to raise funds and increase token circulation. |
+| Private Sale       | 10%                        | Tokens sold through private offerings before public sale to strategic investors. |
+| Reserve            | 15%                        | Held to ensure liquidity, future financing, and operational flexibility. |
 
 ### Token Utility
 
 1. Staking Collateral:
    * GymProviders must stake DGYM tokens as collateral to ensure their credibility.
-   * Users can stake DGYM tokens to gain premium access to gyms.
+   * Consumers can stake DGYM tokens to gain premium access to gyms.
 2. Access Payments:
-   * Users can purchase NFTs for pay-per-access or monthly access using DGYM tokens.
+   * Consumers can purchase NFTs membership access using DGYM tokens.
 3. Rewards:
-   * Users and GymProviders earn DGYM tokens as rewards for participation and maintaining system integrity.
+   * Consumers and GymProviders earn DGYM tokens as rewards for participation and maintaining system integrity.
 4. Incentives and Rewards:
-   * For Users:
+   * For Consumers:
      1. Staking Rewards:
-     2. Users who stake DGYM tokens for premium access receive additional tokens as rewards.
+     2. Consumers who stake DGYM tokens for premium access receive additional tokens as rewards.
      3. Example: 5% annual staking reward.
      4. Usage Rewards:
-     5. Users receive DGYM tokens for regular use of the platform (booking sessions, attending gyms).
+     5. Consumers receive DGYM tokens for regular use of the platform (booking sessions, attending gyms).
    * For Gym Providers:
      1. Staking Rewards:
         * GymProviders who stake tokens receive additional DGYM tokens as rewards.
         * Example: 5% annual staking reward.
      2. Activity Rewards:
-        * Rewards for high activity and positive user feedback.
+        * Rewards for high activity and positive consumer feedback.
    * Referral Program:
-     * Users and GymProviders can earn GPT tokens by referring new participants to the platform.
+     * Consumers and GymProviders can earn GPT tokens by referring new participants to the platform.
 5. Governance
    * Proposals and Voting:
      * Token holders can submit proposals for changes or new features.
@@ -79,14 +90,14 @@ flowchart TD
     end
 
     subgraph Incentives and Rewards
-        N[User Rewards]
+        N[Consumer Rewards]
         O[GymProvider Rewards]
         P[Referral Program]
     end
 
-    J -->|Stake GPT Tokens| Q[GymProviders and Users]
-    K -->|Buy NFTs| R[Users]
-    L -->|Earn GPT Tokens| S[Users and GymProviders]
+    J -->|Stake GPT Tokens| Q[GymProviders and Consumers]
+    K -->|Buy NFTs| R[Consumers]
+    L -->|Earn GPT Tokens| S[Consumers and GymProviders]
     M -->|Vote on Proposals| T[Token Holders]
 
     Q --> U[Receive Rewards]
@@ -96,21 +107,3 @@ flowchart TD
 
 ```
 
-```mermaid
-
-graph Token Utility
-        J[Staking Collateral]
-        K[Access Payments]
-        L[Rewards]
-        M[Governance]
-J -->|Stake GPT Tokens| Q[GymProviders and Users]
-    K -->|Buy NFTs| R[Users]
-    L -->|Earn GPT Tokens| S[Users and GymProviders]
-    M -->|Vote on Proposals| T[Token Holders]
-
-    Q --> U[Receive Rewards]
-    R --> V[Access Gyms]
-    S --> W[Incentives for Participation]
-    T --> X[Platform Governance]
-
-```
