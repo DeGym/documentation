@@ -12,6 +12,7 @@
 * [Membership NFTs](gym-dao/membership-nfts.md)
 * [Consumer](gym-dao/consumer.md)
 * [Provider](gym-dao/provider.md)
+* [Check-in Process](gym-dao/check-in-process.md)
 * [Staker](gym-dao/staker.md)
 * [$DGYM Tokenomics](gym-dao/usddgym-tokenomics.md)
 * [Governance](gym-dao/governance.md)

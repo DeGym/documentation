@@ -93,4 +93,24 @@ flowchart TD
     R --> V[Access Gyms]
     S --> W[Incentives for Participation]
     T --> X[Platform Governance]
+
+```
+
+```mermaid
+
+graph Token Utility
+        J[Staking Collateral]
+        K[Access Payments]
+        L[Rewards]
+        M[Governance]
+J -->|Stake GPT Tokens| Q[GymProviders and Users]
+    K -->|Buy NFTs| R[Users]
+    L -->|Earn GPT Tokens| S[Users and GymProviders]
+    M -->|Vote on Proposals| T[Token Holders]
+
+    Q --> U[Receive Rewards]
+    R --> V[Access Gyms]
+    S --> W[Incentives for Participation]
+    T --> X[Platform Governance]
+
 ```
