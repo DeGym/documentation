@@ -2,7 +2,7 @@
 
 ## Overview
 
-* [Decentralized Gym Access](README.md)
+* [Decentralized Gym Network](README.md)
 * [Purpose](overview/purpose.md)
 * [Value Propositions](overview/value-propositions.md)
 * [Token Presale](overview/presale.md)
