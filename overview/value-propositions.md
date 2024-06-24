@@ -19,8 +19,8 @@ Summary:  This section describes why you're supposed to use DeGym:
 
 DeGym offers significant benefits to various stakeholders in the fitness ecosystem:
 
-1. **Gym Consumer:** DeGym provides a seamless and flexible membership system through NFTs, allowing users to access multiple gyms under a single, convenient plan. This enhances consumer convenience and encourages more frequent gym visits.
+1. **Gym Consumer:** DeGym provides a seamless and flexible voucher system through NFTs, allowing users to access multiple gyms under a single, convenient plan. This enhances consumer convenience and encourages more frequent gym visits.
 2. **Gym Providers:** They benefit financially as they receive payments each time a consumer checks in. This model incentivizes gyms to join the network, potentially increasing their customer base without the need for extensive marketing.
-3. **Stakers:** Individuals staking DGYM tokens are rewarded based on the inactivity of gym consumers. If users do not visit the gym, stakers receive a portion of the membership fees, creating an investment opportunity linked directly to the network's activity levels.
+3. **Stakers:** Individuals staking DGYM tokens are rewarded based on the inactivity of gym consumers. If users do not visit the gym, stakers receive a portion of the voucher fees, creating an investment opportunity linked directly to the network's activity levels.
 
 These aspects position DeGym DAO to potentially transform how people engage with fitness facilities, making it an innovative leader in the health and fitness sector. This innovative model leverages DLT to create a symbiotic relationship between gym consumers, providers, and investors, making DeGym a potentially transformative force in the fitness industry.
