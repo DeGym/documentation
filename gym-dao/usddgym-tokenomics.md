@@ -43,7 +43,7 @@ pie
 ### Utility
 
 The $DGYM token serves multiple utility functions within the DeGym DAO ecosystem, enhancing its intrinsic value and usability:
-  - **Access and Membership:** Tokens can be used to purchase NFT-based gym memberships, providing access to a network of gyms.
+  - **Access and Voucher:** Tokens can be used to purchase NFT-based gym voucher, providing access to a network of gyms.
   - **Staking Rewards:** Token holders can stake their $DGYM to earn rewards, which incentivizes security and participation in the network.
   - **Governance:** $DGYM holders have voting rights in the DAO, allowing them to participate in decision-making processes regarding the development and rules of the ecosystem.
   - **Payment and Incentives:** Gyms receive $DGYM tokens as payment for check-ins, and users may receive tokens as rewards for fitness-related activities and promotions.

@@ -9,7 +9,7 @@
 
 ## Gym DAO
 
-* [Membership NFTs](gym-dao/membership-nfts.md)
+* [NFT Voucher](gym-dao/nft-voucher.md)
 * [Consumer](gym-dao/consumer.md)
 * [Provider](gym-dao/provider.md)
 * [Check-in Process](gym-dao/check-in-process.md)

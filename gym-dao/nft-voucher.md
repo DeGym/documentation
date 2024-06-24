@@ -1,4 +1,4 @@
-# Membership Vouchers
+# DeGym NFT Vouchers
 
 ## Nature and Functionality
 
