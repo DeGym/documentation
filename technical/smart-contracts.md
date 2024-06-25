@@ -173,25 +173,23 @@ contract GymVoucher is ERC721URIStorage, Ownable {
 
 classDiagram
     class GymVoucher {
-      +mintVoucher(address, uint256, uint256, string, uint256)
-      +renewVoucher(uint256, uint256)
-      +upgradeVoucher(uint256, uint256)
-      +downgradeVoucher(uint256, uint256)
-      +checkin(uint256, uint256)
-      +resetDailyAccess(uint256)
-      +calculatePrice(uint256, uint256)
+        +createVoucher(address, uint256, uint256, string)
+        +upgradeVoucher(uint256, uint256)
+        +renewVoucher(uint256, uint256)
+        +downgradeVoucher(uint256, uint256)
+        +resetDCP(uint256)
+        +getVoucherDetails(uint256)
     }
     GymVoucher -- ERC721URIStorage
     GymVoucher -- Ownable
     class Voucher {
-      +uint256 tier
-      +uint256 duration
-      +uint256 startTime
-      +uint256 timezone
-      +uint256 remainingDCP
+        +uint256 tier
+        +uint256 duration
+        +uint256 remainingDCP
+        +uint256 lastReset
+        +string timezone
     }
-    GymVoucher -- IStakeholderContract
-
+    GymVoucher -- IERC20
 ```
 
 ---
