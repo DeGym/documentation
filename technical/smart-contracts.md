@@ -56,15 +56,13 @@ classDiagram
 
 **Purpose**
 
-The Voucher NFT Contract manages the issuance, renewal, upgrade, downgrade, and access control of gym access vouchers. Each voucher is an NFT representing a user's membership with specified tier and duration, and is capable of resetting daily access limits and accumulating daily check-in points (DCP).
+The GymVoucher NFT contract handles the creation, management, and functionality of gym membership vouchers. This includes upgrading, renewing, and downgrading vouchers, each with specific rules and charges.
 
 **Key Functions**
 
-* *mintVoucher(address, uint256, uint256, string, uint256):* Mints a new voucher for a user.
-* *renewVoucher(uint256, uint256):* Renews the voucher's duration.
-* *upgradeVoucher(uint256, uint256):* Upgrades the voucher's tier.
-* *downgradeVoucher(uint256, uint256):* Downgrades the voucher's tier.
-* *checkin(uint256, uint256):* Handles check-ins and resets DCP.
+* *upgradeVoucher(uint256, uint256):* Upgrades the voucher to a higher tier and charges for the remaining DCP.
+* *renewVoucher(uint256, uint256):* Renews the voucher for additional days and charges for the remaining DCP.
+* *downgradeVoucher(uint256, uint256):* Downgrades the voucher to a lower tier, redistributing the remaining DCP over a longer duration.
 
 
 ```solidity
@@ -73,87 +71,97 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-
-interface IStakeholderContract {
-    function distributeRewards(address recipient, uint256 amount, bool isCompound) external;
-}
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 contract GymVoucher is ERC721URIStorage, Ownable {
     struct Voucher {
         uint256 tier;
-        uint256 duration;
-        uint256 startTime;
-        uint256 timezone;
+        uint256 duration; // in days
         uint256 remainingDCP;
+        uint256 lastReset;
+        string timezone;
     }
 
-    uint256 public constant BASE_PRICE = 10;
-    uint256 public constant MIN_PRICE_FACTOR = 70;
-    uint256 public constant DECAY_RATE = 10;
+    IERC20 public token;
+    uint256 public nextVoucherId;
+    uint256 public basePrice = 10 ether;
 
     mapping(uint256 => Voucher) public vouchers;
-    IStakeholderContract public stakeholderContract;
-    uint256 public nextTokenId;
 
-    event VoucherMinted(uint256 tokenId, address owner, uint256 tier, uint256 duration);
-    event VoucherRenewed(uint256 tokenId, uint256 newDuration);
-    event VoucherUpgraded(uint256 tokenId, uint256 newTier);
-    event VoucherDowngraded(uint256 tokenId, uint256 newTier);
-    event CheckIn(uint256 tokenId, uint256 DCPUsed);
+    event VoucherUpgraded(uint256 voucherId, uint256 newTier);
+    event VoucherRenewed(uint256 voucherId, uint256 additionalDays);
+    event VoucherDowngraded(uint256 voucherId, uint256 newTier);
 
-    constructor(address stakeholderContractAddress) ERC721("Gym Voucher", "GYMV") {
-        stakeholderContract = IStakeholderContract(stakeholderContractAddress);
+    constructor(address tokenAddress) ERC721("Gym Voucher", "GV") {
+        token = IERC20(tokenAddress);
     }
 
-    function mintVoucher(address to, uint256 tier, uint256 duration, string memory tokenURI, uint256 timezone) public onlyOwner {
-        uint256 tokenId = nextTokenId;
-        _mint(to, tokenId);
-        _setTokenURI(tokenId, tokenURI);
-        vouchers[tokenId] = Voucher(tier, duration, block.timestamp, timezone, 2**tier);
-        nextTokenId++;
-        emit VoucherMinted(tokenId, to, tier, duration);
+    function createVoucher(address owner, uint256 tier, uint256 duration, string memory timezone) public onlyOwner {
+        uint256 voucherId = nextVoucherId++;
+        _mint(owner, voucherId);
+
+        vouchers[voucherId] = Voucher({
+            tier: tier,
+            duration: duration,
+            remainingDCP: 2 ** tier,
+            lastReset: block.timestamp,
+            timezone: timezone
+        });
+
+        _setTokenURI(voucherId, "");
     }
 
-    function renewVoucher(uint256 tokenId, uint256 duration) public {
-        require(_isApprovedOrOwner(_msgSender(), tokenId), "Not approved or owner");
-        vouchers[tokenId].duration += duration;
-        emit VoucherRenewed(tokenId, duration);
+    function upgradeVoucher(uint256 voucherId, uint256 newTier) public payable {
+        require(_isApprovedOrOwner(_msgSender(), voucherId), "Caller is not owner nor approved");
+        require(newTier > vouchers[voucherId].tier, "New tier must be higher");
+
+        Voucher storage voucher = vouchers[voucherId];
+        uint256 currentTier = voucher.tier;
+        uint256 remainingDCP = voucher.remainingDCP;
+
+        uint256 price = (remainingDCP * (2 ** (newTier - currentTier))) / (2 ** currentTier) * basePrice / (2 ** 30);
+        require(msg.value >= price, "Insufficient funds for upgrade");
+
+        voucher.tier = newTier;
+        voucher.remainingDCP = remainingDCP * (2 ** (newTier - currentTier));
+
+        emit VoucherUpgraded(voucherId, newTier);
     }
 
-    function upgradeVoucher(uint256 tokenId, uint256 newTier) public {
-        require(_isApprovedOrOwner(_msgSender(), tokenId), "Not approved or owner");
-        require(newTier > vouchers[tokenId].tier, "New tier must be higher");
-        vouchers[tokenId].tier = newTier;
-        emit VoucherUpgraded(tokenId, newTier);
+    function renewVoucher(uint256 voucherId, uint256 additionalDays) public payable {
+        require(_isApprovedOrOwner(_msgSender(), voucherId), "Caller is not owner nor approved");
+
+        Voucher storage voucher = vouchers[voucherId];
+        uint256 price = (voucher.remainingDCP * additionalDays * basePrice) / (voucher.duration * (2 ** 30));
+        require(msg.value >= price, "Insufficient funds for renewal");
+
+        voucher.duration += additionalDays;
+
+        emit VoucherRenewed(voucherId, additionalDays);
     }
 
-    function downgradeVoucher(uint256 tokenId, uint256 newTier) public {
-        require(_isApprovedOrOwner(_msgSender(), tokenId), "Not approved or owner");
-        require(newTier < vouchers[tokenId].tier, "New tier must be lower");
-        vouchers[tokenId].tier = newTier;
-        emit VoucherDowngraded(tokenId, newTier);
+    function downgradeVoucher(uint256 voucherId, uint256 newTier) public {
+        require(_isApprovedOrOwner(_msgSender(), voucherId), "Caller is not owner nor approved");
+        require(newTier < vouchers[voucherId].tier, "New tier must be lower");
+
+        Voucher storage voucher = vouchers[voucherId];
+        uint256 remainingDCP = voucher.remainingDCP;
+
+        voucher.tier = newTier;
+        voucher.remainingDCP = remainingDCP / (2 ** (voucher.tier - newTier));
+        voucher.duration = (voucher.duration * (2 ** (voucher.tier - newTier)));
+
+        emit VoucherDowngraded(voucherId, newTier);
     }
 
-    function checkin(uint256 tokenId, uint256 gymTier) public {
-        require(_isApprovedOrOwner(_msgSender(), tokenId), "Not approved or owner");
-        require(gymTier <= vouchers[tokenId].tier, "Gym tier exceeds voucher tier");
-        require(vouchers[tokenId].remainingDCP >= 2**gymTier, "Insufficient DCP");
-
-        vouchers[tokenId].remainingDCP -= 2**gymTier;
-        stakeholderContract.distributeRewards(ownerOf(tokenId), 2**gymTier * BASE_PRICE, false);
-        emit CheckIn(tokenId, 2**gymTier);
+    function resetDCP(uint256 voucherId) public onlyOwner {
+        Voucher storage voucher = vouchers[voucherId];
+        voucher.remainingDCP = 2 ** voucher.tier;
+        voucher.lastReset = block.timestamp;
     }
 
-    function resetDailyAccess(uint256 tokenId) public {
-        require(_isApprovedOrOwner(_msgSender(), tokenId), "Not approved or owner");
-        vouchers[tokenId].remainingDCP = 2**vouchers[tokenId].tier;
-    }
-
-    function calculatePrice(uint256 tier, uint256 duration) public pure returns (uint256) {
-        uint256 minBasePrice = MIN_PRICE_FACTOR * BASE_PRICE / 100;
-        uint256 basePrice = BASE_PRICE * (1 - DECAY_RATE * (duration / 30 - 1) / 100);
-        basePrice = basePrice > minBasePrice ? basePrice : minBasePrice;
-        return basePrice * tier * duration / 30;
+    function getVoucherDetails(uint256 voucherId) public view returns (Voucher memory) {
+        return vouchers[voucherId];
     }
 }
 ```
@@ -268,106 +276,6 @@ classDiagram
 ```
 
 ---
-
-## GymProviderCertificate Contract
-
-**Purpose**
-
-The GymProviderCertificate contract issues certificates to gym providers who lock a specified amount of $DGYM tokens. These certificates determine the tier of check-ins a gym can provide. The tier ranges from 1 to 99, indicating the quality and access level of the gym.
-
-**Key Functions**
-
-* *issueCertificate(address, uint256):* Issues a certificate to a gym provider.
-* *revokeCertificate(uint256):* Revokes a certificate.
-* *checkCertificate(uint256):* Checks the validity and tier of a gym's certificate.
-
-```solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
-
-import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-
-contract GymProviderCertificate is ERC721URIStorage, Ownable {
-    struct Certificate {
-        uint256 tier;
-        uint256 lockedAmount;
-        bool isActive;
-    }
-
-    IERC20 public token;
-    uint256 public nextCertificateId;
-    uint256 public requiredStake;
-
-    mapping(uint256 => Certificate) public certificates;
-    mapping(address => uint256) public providerCertificate;
-
-    event CertificateIssued(uint256 certificateId, address provider, uint256 tier);
-    event CertificateRevoked(uint256 certificateId);
-
-    constructor(address tokenAddress, uint256 _requiredStake) ERC721("Gym Provider Certificate", "GPC") {
-        token = IERC20(tokenAddress);
-        requiredStake = _requiredStake;
-    }
-
-    function issueCertificate(address provider, uint256 tier, string memory tokenURI) public onlyOwner {
-        require(tier >= 1 && tier <= 99, "Tier must be between 1 and 99");
-        require(token.balanceOf(provider) >= requiredStake, "Insufficient $DGYM balance");
-        require(providerCertificate[provider] == 0, "Provider already has a certificate");
-
-        uint256 certificateId = nextCertificateId;
-        _mint(provider, certificateId);
-        _setTokenURI(certificateId, tokenURI);
-
-        certificates[certificateId] = Certificate(tier, requiredStake, true);
-        providerCertificate[provider] = certificateId;
-        nextCertificateId++;
-
-        emit CertificateIssued(certificateId, provider, tier);
-    }
-
-    function revokeCertificate(uint256 certificateId) public onlyOwner {
-        address provider = ownerOf(certificateId);
-        certificates[certificateId].isActive = false;
-        providerCertificate[provider] = 0;
-
-        _burn(certificateId);
-        emit CertificateRevoked(certificateId);
-    }
-
-    function checkCertificate(uint256 certificateId) public view returns (uint256 tier, uint256 lockedAmount, bool isActive) {
-        Certificate storage certificate = certificates[certificateId];
-        return (certificate.tier, certificate.lockedAmount, certificate.isActive);
-    }
-
-    function setRequiredStake(uint256 _requiredStake) public onlyOwner {
-        requiredStake = _requiredStake;
-    }
-}
-```
-
-
-```mermaid
-%%{init: {'theme': 'forest'}}%%
-
-classDiagram
-    class GymProviderCertificate {
-      +issueCertificate(address, uint256, string)
-      +revokeCertificate(uint256)
-      +checkCertificate(uint256)
-      +setRequiredStake(uint256)
-    }
-    GymProviderCertificate -- ERC721URIStorage
-    GymProviderCertificate -- Ownable
-    class Certificate {
-      +uint256 tier
-      +uint256 lockedAmount
-      +bool isActive
-    }
-    GymProviderCertificate -- IERC20
-```
-
 
 ## Checkin Contract
 
