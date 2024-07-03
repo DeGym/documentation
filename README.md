@@ -1,6 +1,5 @@
 ---
-cover: >-
-  https://images.unsplash.com/photo-1593079831268-3381b0db4a77?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw3fHxneW18ZW58MHx8fHwxNzE4NjE2ODQyfDA&ixlib=rb-4.0.3&q=85
+cover: .gitbook/assets/22137af8-8f0b-4bc3-9d83-18b0f56668f5_h0pgj1f_2k.jpeg
 coverY: 0
 layout:
   cover:
@@ -32,6 +31,6 @@ In a world where access to fitness facilities can be limited by location and tim
 * **Integrity:** Maintaining transparency and honesty in all operations.
 * **Excellence:** Striving for excellence in every aspect of our service.
 
-This project is a decentralized autonomous organization for managing gym access and rewards using DLT enhaced with smart contracts. Consumers can purchase NFTs vouchers for access, Providers (gyms, studios, or well-being services) can provide your services in order to boost their revenue, and various rewards systems are implemented.&#x20;
+This project is a decentralized autonomous organization for managing gym access and rewards using DLT enhaced with smart contracts. Consumers can purchase NFTs vouchers for access, Providers (gyms, studios, or well-being services) can provide your services in order to boost their revenue, and various rewards systems are implemented.
 
 Our decentralized gym access DApp aims to create a robust, engaging, and transparent ecosystem that benefits both gym providers and consumers. We envision a future where fitness becomes more accessible, rewarding, and secure for everyone.
