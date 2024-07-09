@@ -119,6 +119,7 @@ contract GymVoucher is ERC721URIStorage, Ownable {
         uint256 currentTier = voucher.tier;
         uint256 remainingDCP = voucher.remainingDCP;
 
+        // Calculate price based on remaining DCP and new tier
         uint256 price = (remainingDCP * (2 ** (newTier - currentTier))) / (2 ** currentTier) * basePrice / (2 ** 30);
         require(msg.value >= price, "Insufficient funds for upgrade");
 
@@ -132,6 +133,7 @@ contract GymVoucher is ERC721URIStorage, Ownable {
         require(_isApprovedOrOwner(_msgSender(), voucherId), "Caller is not owner nor approved");
 
         Voucher storage voucher = vouchers[voucherId];
+        // Calculate price based on remaining DCP and additional days
         uint256 price = (voucher.remainingDCP * additionalDays * basePrice) / (voucher.duration * (2 ** 30));
         require(msg.value >= price, "Insufficient funds for renewal");
 
@@ -147,9 +149,10 @@ contract GymVoucher is ERC721URIStorage, Ownable {
         Voucher storage voucher = vouchers[voucherId];
         uint256 remainingDCP = voucher.remainingDCP;
 
+        // Downgrade to a lower tier and redistribute remaining DCP over a longer duration
+        voucher.duration += (remainingDCP / (2 ** (voucher.tier - newTier)));
         voucher.tier = newTier;
         voucher.remainingDCP = remainingDCP / (2 ** (voucher.tier - newTier));
-        voucher.duration = (voucher.duration * (2 ** (voucher.tier - newTier)));
 
         emit VoucherDowngraded(voucherId, newTier);
     }
