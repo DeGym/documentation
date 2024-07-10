@@ -29,7 +29,7 @@ The check-in process in DeGym DAO leverages a robust smart contract system desig
 &#x20;
 
 ```mermaid
-%%{init: {'theme': 'forest'}}%%
+%%{init: {'theme': ''}}%%
 
 sequenceDiagram
     participant U as Consumer
