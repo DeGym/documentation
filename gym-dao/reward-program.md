@@ -1,46 +1,54 @@
-# Reward Program
+# DeGym Reward Program
 
-The DeGym reward program is designed to incentivize early participation and long-term commitment. This program provides rewards in both DGYM and USDT based on staking activities.
+The reward programs for DGYM and USDT in DeGym are designed to incentivize and reward stakeholders based on their participation and commitment to the platform. The DGYM rewards are influenced by the amount staked and the duration of the stake, while the USDT rewards are based on the amount staked.
 
-For **DGYM reward** the total rewards are distributed based on the stake amount and lock duration of each user's stakeholder.
-For **USDT reward** the total rewards are distributed based on the stake amount of each stakeholder.
+## Rewarding DGYM
+
+### Inflow
+Inflows of DGYM are generated through inflation.
+
+### Distribution
+Distributions are triggered at every period where DGYM is inflated. The distribution weight is calculated based on the amount staked and the locked time.
+
+### Outflow
+After distribution, stakeholders can claim the DGYM amount that is not set to auto compound.
+
+```mermaid
+graph TB
+    A[Inflation Generates DGYM] --> B[Distribution Triggered]
+    B --> C[Calculate Distribution Weight]
+    C --> D[Amount Staked]
+    C --> E[Locked Time]
+    D & E --> F[Distribute DGYM]
+    F --> G[Claim DGYM Not Set to Auto Compound]
+```
+## Rewarding USDT
+
+### Inflow
+Inflows of USDT are generated through voucher sales.
+
+### Distribution
+Distributions are triggered at every voucher renewal. The distribution weight is calculated based on the amount staked.
+
+### Outflow
+After distribution, users can claim the USDT at any moment.
+
+```mermaid
+graph TB
+    A[Voucher Sales Generate USDT] --> B[Distribution Triggered]
+    B --> C[Calculate Distribution Weight]
+    C --> D[Amount Staked]
+    D --> E[Distribute USDT]
+    E --> F[Claim USDT Anytime]
+```
 
 
 ## Key Features
 
 - **Inflation Mechanism**: The reward distribution is more favorable in the early stages and gradually decreases over time. 
 The inflation rate starts at 50% and decays logarithmically over 20 years, reaching an asymptote at 1%.
-
 - **Stake Amount and Duration**: Both the amount staked and the duration of the lock influence the reward distribution.
 - **USDT Rewards**: Users are rewarded in USDT based on voucher purchases, distributed according to the stake amount.
-
-## Reward Distribution
-
-### DGYM Rewards
-
-The DGYM rewards are distributed based on two factors:
-1. **Stake Amount**: The more DGYM staked, the higher the reward.
-2. **Lock Duration**: The longer the DGYM is locked, the greater the reward.
-
-### USDT Rewards
-
-USDT rewards are distributed based on the stake amount. The distribution mechanism does not consider the lock duration for USDT rewards.
-
-## Reward Program Flow
-
-```mermaid
-flowchart TD
-    A[Start] --> B[Stake DGYM]
-    B --> C{Is Lock Duration Set?}
-    C -- Yes --> D[Calculate DGYM Reward]
-    C -- No --> E[Set Lock Duration]
-    E --> D
-    D --> F[Reward Distributed in DGYM]
-    B --> G[Calculate USDT Reward Based on Stake Amount]
-    G --> H[Reward Distributed in USDT]
-    F --> I[End]
-    H --> I
-```
 
 ## Detailed Steps
 
@@ -54,17 +62,3 @@ flowchart TD
 ## Inflation Mechanism
 
 The inflation mechanism ensures that the rewards are higher for early adopters and decrease over time.
-
-```mermaid
-graph TD
-    Year1[Year 1] -->|High Rewards| RewardPool
-    Year2[Year 2] -->|Moderate Rewards| RewardPool
-    Year3[Year 3] -->|Low Rewards| RewardPool
-    RewardPool --> RewardDistribution[Reward Distribution]
-```
-
-## Suggestions for Improvement
-
-* **Visual Examples**: Add visual examples or case studies showing different scenarios of staking and rewards.
-* **FAQ Section**: Include a FAQ section addressing common questions about the reward program.
-* **Interactive Calculator**: Provide an interactive calculator tool on the DeGym platform to help users estimate their potential rewards based on different staking amounts and durations.
