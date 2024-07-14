@@ -21,6 +21,7 @@
 ## Technical
 
 * [Smart Contracts](technical/smart-contracts.md)
+* [Inflation](technical/inflation.md)
 * [Reward](technical/reward.md)
 * [Whitepaper](technical/whitepaper.md)
 
