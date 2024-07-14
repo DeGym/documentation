@@ -14,6 +14,7 @@
 * [Provider](gym-dao/provider.md)
 * [Check-in Process](gym-dao/check-in-process.md)
 * [Staker](gym-dao/staker.md)
+* [Reward](gym-dao/reward-program.md)
 * [$DGYM Tokenomics](gym-dao/usddgym-tokenomics.md)
 * [Governance](gym-dao/governance.md)
 
