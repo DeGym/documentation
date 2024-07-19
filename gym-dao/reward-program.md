@@ -46,7 +46,6 @@ graph TB
 ## Key Features
 
 - **Inflation Mechanism**: The reward distribution is more favorable in the early stages and gradually decreases over time. 
-The inflation rate starts at 50% and decays logarithmically over 20 years, reaching an asymptote at 1%.
 - **Stake Amount and Duration**: Both the amount staked and the duration of the lock influence the reward distribution.
 - **USDT Rewards**: Users are rewarded in USDT based on voucher purchases, distributed according to the stake amount.
 
