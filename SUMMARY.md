@@ -5,7 +5,7 @@
 * [Decentralized Gym Network](README.md)
 * [Purpose](overview/purpose.md)
 * [Value Propositions](overview/value-propositions.md)
-* [Token Pre-Seed](overview/pre-seed.md)
+* [Token Pre-Seed, Private Sale, and Public Sale](overview/pre-seed.md)
 
 ## Gym DAO
 
