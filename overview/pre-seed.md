@@ -10,7 +10,7 @@ The DeGym project is embarking on a phased approach to raise funds and distribut
 
 ### Pre-Seed Phase
 
-* Token Allocation: 3% of the total token supply (300,000,000 DGYM)
+* Token Allocation: 3% of the supply (300,000,000 DGYM)
 * Vesting Period: To ensure commitment and gradual release of tokens
 * Unsold Tokens: Any unsold tokens from the pre-seed phase will be burned forever to maintain scarcity and increase the value of circulating tokens
 * Objective: Validate market interest, raise initial funds, and set a baseline for token value
