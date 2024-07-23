@@ -1,12 +1,12 @@
 ---
-description: Pre-Seed and Pre-Sale Token Distribution Plan for DeGym Project
+description: Pre-Seed and Private Sale Token Distribution Plan for DeGym Project
 ---
 
 # Token Pre-Seed
 
 ## Overview
 
-The DeGym project is embarking on a phased approach to raise funds and distribute tokens, ensuring fair market valuation and rewarding early investors. This document outlines the strategy for the pre-seed and pre-sale phases, including token distribution, pricing, vesting periods, and the future adjustment of token prices.
+The DeGym project is embarking on a phased approach to raise funds and distribute tokens, ensuring fair market valuation and rewarding early investors. This document outlines the strategy for the pre-seed and private sale phases, including token distribution, pricing, vesting periods, and the future adjustment of token prices.
 
 ### Pre-Seed Phase
 
