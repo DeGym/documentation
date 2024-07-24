@@ -21,11 +21,11 @@ The DeGym project is embarking on a phased approach to raise funds and distribut
 ### Key Points:
 
 * **Fair Initial Pricing:** Tokens will be priced to attract early supporters while reflecting their future potential value.
-* **Burning Unsold Tokens:** Any tokens not sold during the pre-seed phase will be burned, reducing the total supply and potentially increasing the value of remaining tokens.
+* **Burning Unsold Tokens:** Any tokens not sold during the pre-seed phase will be burned, reducing the total initial supply and potentially increasing the value of remaining tokens.
 
 ## Private-Sale Phase
 
-* **Token Allocation:** 7% of the total token supply (700,000,000 DGYM)
+* **Token Allocation:** 7% of the total token initial supply (700,000,000 DGYM)
 * **Price Adjustment:** The price per token will be 10% higher than the final price from the pre-seed phase
 * **Objective:** Raise significant funds for project development, marketing, and operational expenses
 
@@ -36,13 +36,17 @@ The DeGym project is embarking on a phased approach to raise funds and distribut
 
 ## Public Sale Phase
 
-* **Token Allocation:** 30% of the total token supply (3,000,000,000 DGYM)
+* **Token Allocation:** 30% of the total token initial supply (3,000,000,000 DGYM)
 * **Objective:** Raise significant funds for further project development, marketing, community building, and operational expenses
 
 ### Price Calculation
 
 * **Pre-Seed Unsold Tokens:** All unsold tokens from the pre-seed phase will be permanently burned
 * **Public Sale Price:** Determined based on the final private sale price to reflect the project's ongoing progress and market conditions
+
+### Token Generation Event <a href="#token-generation-event" id="token-generation-event"></a>
+
+At the `$DGYM` contract deployment, `1.000.000.000(1 billion)` will be minted (ERC-20) and distributed according to [Tokenomics](../gym-dao/usddgym-tokenomics.md).
 
 ### Token Burn Mechanism
 
