@@ -17,7 +17,7 @@
 * [Reward](gym-dao/reward-program.md)
 * [💰 $DGYM Tokenomics](gym-dao/usddgym-tokenomics.md)
 * [Governance](gym-dao/governance.md)
-* [📜 Terms & Conditions](gym-dao/terms-and-conditions.mmd)
+* [📜 Terms & Conditions](gym-dao/terms-and-conditions.md)
 
 ## Technical
 
