@@ -67,7 +67,3 @@ graph TB
 4. **Distribute DGYM Reward**: The calculated DGYM reward is distributed to the stakeholders.
 5. **Calculate Comercial Token Reward**: The reward in Comercial Token is calculated based on the stake amount.
 6. **Distribute Comercial Token Reward**: The calculated Comercial Token reward is distributed to the user.
-
-## Inflation Mechanism
-
-The inflation mechanism ensures that the rewards are higher for early adopters and decrease over time.
