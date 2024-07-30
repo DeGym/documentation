@@ -20,7 +20,7 @@ Token Contract Standard: ERC20
 
 Token Contract Address: 0x... (coming soon)
 
-There will be inflation (see the section on [Rewards](https://docs.taraxa.io/tech-whitepaper/economic-model#5-5-rewards)) which comes in the form of block rewards providing staking yield, but will only inflate upon stakes that are in circulation and have been delegated to consensus nodes. In other words, any tokens that are locked cannot be staked or delegated, therefore generates no inflation.
+There will be inflation (see the section on [Rewards](technical/inflation.md)) which comes in the form of block rewards providing staking yield, but will only inflate upon stakes that are in circulation and have been delegated to consensus nodes. In other words, any tokens that are locked cannot be staked or delegated, therefore generates no inflation.
 
 ### Distribution
 
