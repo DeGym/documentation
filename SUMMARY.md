@@ -5,7 +5,6 @@
 * [Decentralized Gym Network](README.md)
 * [Purpose](overview/purpose.md)
 * [Value Propositions](overview/value-propositions.md)
-* [Token Pre-Seed, Private Sale, and Public Sale](overview/pre-seed.md)
 
 ## Gym DAO
 
@@ -15,14 +14,16 @@
 * [Check-in Process](gym-dao/check-in-process.md)
 * [Staker](gym-dao/staker.md)
 * [Reward](gym-dao/reward-program.md)
-* [💰 $DGYM Tokenomics](gym-dao/usddgym-tokenomics.md)
+* [💲 DeGym Token](gym-dao/degym-token/README.md)
+  * [💰 Tokenomics](gym-dao/degym-token/usddgym-tokenomics.md)
+  * [🕧 Generation Phases](gym-dao/degym-token/pre-seed.md)
+  * [♻️ Inflation](gym-dao/degym-token/inflation.md)
 * [Governance](gym-dao/governance.md)
 * [📜 Terms & Conditions](gym-dao/terms-and-conditions.md)
 
 ## Technical
 
 * [Smart Contracts](technical/smart-contracts.md)
-* [Inflation](technical/inflation.md)
 * [Reward](technical/reward.md)
 * [Whitepaper](technical/whitepaper.md)
 

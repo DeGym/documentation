@@ -1,8 +1,10 @@
 ---
-description: Pre-Seed and Private Sale Token Distribution Plan for DeGym Project
+description: >-
+  Pre-Seed, Private Sale, and Public Sale Token Distribution Plan for DeGym
+  Project
 ---
 
-# Token Pre-Seed, Private Sale, and Public Sale
+# 🕧 Generation Phases
 
 The DeGym project is embarking on a phased approach to raise funds and distribute tokens, ensuring fair market valuation and rewarding early investors. This document outlines the strategy for the pre-seed, private sale, and public sale phases, including token distribution, pricing, vesting periods, and the future adjustment of token prices.
 
@@ -59,7 +61,7 @@ The DeGym project is embarking on a phased approach to raise funds and distribut
 
 ### Token Generation Event <a href="#token-generation-event" id="token-generation-event"></a>
 
-At the `$DGYM` contract deployment, `1.000.000.000(1 billion)` will be minted (ERC-20) and distributed according to [Tokenomics](../gym-dao/usddgym-tokenomics.md).
+At the `$DGYM` contract deployment, `1.000.000.000(1 billion)` will be minted (ERC-20) and distributed according to [Tokenomics](usddgym-tokenomics.md).
 
 ### Token Burn Mechanism
 
