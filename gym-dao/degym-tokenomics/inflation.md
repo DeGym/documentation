@@ -21,7 +21,7 @@ $$
 
 Where:
 
-* `decay_constant` is 0.8.
+* `decay_constant` is 0.04.
 * `current_supply` is the total supply of DGYM at the time of calculation.
 * `max_supply` is 10,000,000,000 DGYM.
 
