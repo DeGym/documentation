@@ -12,7 +12,40 @@ Inflows of DGYM are generated through [inflation](degym-tokenomics/inflation.md)
 
 Distributions are triggered at every period where DGYM is inflated. The distribution weight is calculated based on the amount staked and the locked time.
 
-### Outflow
+To address the concern of extremely long lock times distorting the reward distribution, we can modify the time weight calculation using a logarithmic function. This approach ensures that the weight increases with time but at a diminishing rate, preventing excessively long lock durations from overwhelming the distribution.
+
+#### Weight Calculation
+
+We will use the following formula to calculate the weight for each user:
+
+$$
+Weight_i​=A_i​×log(remainingTime_i ​+ 1)
+$$
+
+Where:
+
+* $$A_i$$ is the amount locked by user $$ii$$.
+* $$remainingTime_i$$ is the time locked by user $$ii$$ (in days).
+
+#### Total Weight Calculation
+
+The total weight for all users remains the same:
+
+$$
+TotalWeight=  \sum_{j=1}^{n}​(A_j​×log(remainingTime_j​+1))
+$$
+
+#### Distributed Reward
+
+The reward for each user can be calculated as follows:
+
+$$
+Reward_i​=(Weight_i \div TotalWeight​​)×R
+$$
+
+Where:
+
+* $$R$$ is the total reward pool.
 
 After distribution, stakeholders can claim the DGYM amount that is not set to auto compound.
 
