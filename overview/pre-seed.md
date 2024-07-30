@@ -6,6 +6,8 @@ description: Pre-Seed and Private Sale Token Distribution Plan for DeGym Project
 
 The DeGym project is embarking on a phased approach to raise funds and distribute tokens, ensuring fair market valuation and rewarding early investors. This document outlines the strategy for the pre-seed, private sale, and public sale phases, including token distribution, pricing, vesting periods, and the future adjustment of token prices.
 
+***
+
 ## Pre-Seed Phase
 
 * **Token Allocation:** 3% of the total token initial supply (300,000,000 DGYM)
@@ -23,6 +25,8 @@ The DeGym project is embarking on a phased approach to raise funds and distribut
 * **Fair Initial Pricing:** Tokens will be priced to attract early supporters while reflecting their future potential value.
 * **Burning Unsold Tokens:** Any tokens not sold during the pre-seed phase will be burned, reducing the total initial supply and potentially increasing the value of remaining tokens.
 
+***
+
 ## Private-Sale Phase
 
 * **Token Allocation:** 7% of the total token initial supply (700,000,000 DGYM)
@@ -32,7 +36,14 @@ The DeGym project is embarking on a phased approach to raise funds and distribut
 ### Price Calculation:
 
 * **Final Pre-Seed Price:** Determined based on the total market cap accumulated during the pre-seed phase
-* **Private Sale Price:** 10% higher than the final pre-seed price to reward early investors and reflect the project's progress and increased value
+* **Private Sale Price:** 30% higher than the final pre-seed price to reward early investors and reflect the project's progress and increased value
+
+### Vesting Schedule:
+
+* **TGE (Token Generation Event):** 10% unlocked immediately
+* **Monthly Vesting:** Remaining tokens vested over 12 months
+
+***
 
 ## Public Sale Phase
 
@@ -44,13 +55,15 @@ The DeGym project is embarking on a phased approach to raise funds and distribut
 * **Pre-Seed Unsold Tokens:** All unsold tokens from the pre-seed phase will be permanently burned
 * **Public Sale Price:** Determined based on the final private sale price to reflect the project's ongoing progress and market conditions
 
+***
+
 ### Token Generation Event <a href="#token-generation-event" id="token-generation-event"></a>
 
 At the `$DGYM` contract deployment, `1.000.000.000(1 billion)` will be minted (ERC-20) and distributed according to [Tokenomics](../gym-dao/usddgym-tokenomics.md).
 
 ### Token Burn Mechanism
 
-* Pre-Seed Unsold Tokens: All unsold tokens from the pre-seed phase will be burned
+* **Pre-Seed Unsold Tokens**: All unsold tokens from the pre-seed phase will be burned
 * **Purpose:** To create scarcity, potentially increasing the value of the remaining tokens
 
 ### Market Cap Adjustment
@@ -65,7 +78,7 @@ At the `$DGYM` contract deployment, `1.000.000.000(1 billion)` will be minted (E
    * Burn unsold tokens
 2. **Private Sale Phase:**
    * Allocate 7% of tokens
-   * Price 10% higher than pre-seed final price
+   * Price 30% higher than pre-seed final price
 3. **Public Sale Phase:**
    * Allocate 30% of tokens
    * Price determined based on final private sale price
