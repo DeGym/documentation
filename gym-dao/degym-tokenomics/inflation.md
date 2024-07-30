@@ -33,6 +33,8 @@ The inflation is applied monthly. When the inflation is applied, new tokens are 
 
 Stakeholders can stake their DGYM tokens to earn rewards. The reward distribution is based on the amount staked and the duration for which the tokens are staked. The longer the tokens are staked, the higher the reward.
 
+<figure><img src="../../.gitbook/assets/output.png" alt=""><figcaption></figcaption></figure>
+
 ### Functions
 
 * **Stake**: Allows users to stake their DGYM tokens.
@@ -40,8 +42,6 @@ Stakeholders can stake their DGYM tokens to earn rewards. The reward distributio
 * **CalculateInflationRate**: Calculates the current inflation rate based on the remaining supply ratio.
 * **ApplyInflation**: Applies the calculated inflation by minting new tokens and increasing the total supply.
 * **DistributeInflation**: Distributes the minted tokens among stakeholders based on their stake and duration.
-
-<figure><img src="../../.gitbook/assets/output.png" alt=""><figcaption></figcaption></figure>
 
 ```mermaid
 %%{init: {'theme': 'forest'}}%%
