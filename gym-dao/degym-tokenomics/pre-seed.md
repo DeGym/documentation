@@ -14,7 +14,7 @@ At the `$DGYM` contract deployment, `1.000.000.000(1 billion)` will be minted (E
 
 ***
 
-## Pre-Seed Phase
+## 🌱 Pre-Seed Phase
 
 * **Token Allocation:** 3% of the total token initial supply (300,000,000 DGYM)
 * **Vesting Period:** To ensure commitment and gradual release of tokens
@@ -33,10 +33,10 @@ At the `$DGYM` contract deployment, `1.000.000.000(1 billion)` will be minted (E
 
 ***
 
-## Private-Sale Phase
+## 🐋 Private-Sale Phase
 
 * **Token Allocation:** 7% of the total token initial supply (700,000,000 DGYM)
-* **Price Adjustment:** The price per token will be 10% higher than the final price from the pre-seed phase
+* **Price Adjustment:** The price per token will be 30% higher than the final price from the pre-seed phase
 * **Objective:** Raise significant funds for project development, marketing, and operational expenses
 
 ### Price Calculation:
@@ -51,15 +51,16 @@ At the `$DGYM` contract deployment, `1.000.000.000(1 billion)` will be minted (E
 
 ***
 
-## Public Sale Phase
+## 🌐 Public Sale Phase
 
 * **Token Allocation:** 30% of the total token initial supply (3,000,000,000 DGYM)
 * **Objective:** Raise significant funds for further project development, marketing, community building, and operational expense
+* **Price Adjustment:** The price per token will be 30% higher than the final price from the private sale phase
 
 ### Price Calculation
 
-* **Pre-Seed Unsold Tokens:** All unsold tokens from the pre-seed phase will be permanently burned
-* **Public Sale Price:** Determined based on the final private sale price to reflect the project's ongoing progress and market conditions
+* **Private Sale Unsold Tokens:** All unsold tokens from the Private Sale phase will be permanently burned
+* **Public Sale Price:** 30% higher than the final private sale price to reflect the project's ongoing progress and market conditions&#x20;
 
 ### Vesting Schedule:
 
