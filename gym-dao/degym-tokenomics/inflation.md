@@ -6,7 +6,7 @@ The DGYM Token employs an inflation mechanism **designed to regulate the token s
 
 ### Parameters
 
-* **Decay Constant**: 0.004https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FkkOzZRir80g7VCE34EH1%2Fuploads%2FC2LQ62ft5c22irpzHCEk%2Foutput.png?alt=media\&token=2c1c0879-da8a-4fac-a218-0c6499941064
+* **Decay Constant**: 0.004
 * **Max Supply**: 10,000,000,000 DGYM
 * **Initial Supply**: 1,000,000,000 DGYM
 * **Inflation Interval**: Monthly
