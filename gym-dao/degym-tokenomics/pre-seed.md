@@ -8,6 +8,10 @@ description: >-
 
 The DeGym project is embarking on a phased approach to raise funds and distribute tokens, ensuring fair market valuation and rewarding early investors. This document outlines the strategy for the pre-seed, private sale, and public sale phases, including token distribution, pricing, vesting periods, and the future adjustment of token prices.
 
+## Token Generation Event <a href="#token-generation-event" id="token-generation-event"></a>
+
+At the `$DGYM` contract deployment, `1.000.000.000(1 billion)` will be minted (ERC-20) and allocated according to [Allocation](usddgym-tokenomics.md).
+
 ***
 
 ## Pre-Seed Phase
@@ -19,7 +23,7 @@ The DeGym project is embarking on a phased approach to raise funds and distribut
 
 ### Vesting Schedule:
 
-* **TGE (Token Generation Event):** 10% unlocked immediately
+* **End Phase Event:** 10% unlocked immediately (No Cliff)
 * **Monthly Vesting:** Remaining tokens vested over 12 months
 
 ### Key Points:
@@ -42,37 +46,29 @@ The DeGym project is embarking on a phased approach to raise funds and distribut
 
 ### Vesting Schedule:
 
-* **TGE (Token Generation Event):** 10% unlocked immediately
-* **Monthly Vesting:** Remaining tokens vested over 12 months
+* **End Phase Event:** Cliff of 3 months
+* **Monthly Vesting:** Remaining tokens vested over 24 months
 
 ***
 
 ## Public Sale Phase
 
 * **Token Allocation:** 30% of the total token initial supply (3,000,000,000 DGYM)
-* **Objective:** Raise significant funds for further project development, marketing, community building, and operational expenses
+* **Objective:** Raise significant funds for further project development, marketing, community building, and operational expense
 
 ### Price Calculation
 
 * **Pre-Seed Unsold Tokens:** All unsold tokens from the pre-seed phase will be permanently burned
 * **Public Sale Price:** Determined based on the final private sale price to reflect the project's ongoing progress and market conditions
 
+### Vesting Schedule:
+
+* **End Phase Event:** 100% unlocked immediately (No Cliff)
+* **Monthly Vesting:** No remaining for vesting
+
 ***
 
-### Token Generation Event <a href="#token-generation-event" id="token-generation-event"></a>
-
-At the `$DGYM` contract deployment, `1.000.000.000(1 billion)` will be minted (ERC-20) and distributed according to [Tokenomics](usddgym-tokenomics.md).
-
-### Token Burn Mechanism
-
-* **Pre-Seed Unsold Tokens**: All unsold tokens from the pre-seed phase will be burned
-* **Purpose:** To create scarcity, potentially increasing the value of the remaining tokens
-
-### Market Cap Adjustment
-
-* The price per token will be adjusted based on the market cap accumulated during each sale phase. This ensures a fair valuation and aligns the token price with the project's progress and market demand.
-
-### Summary
+## Summary
 
 1. **Pre-Seed Phase:**
    * Allocate 3% of tokens
@@ -83,8 +79,17 @@ At the `$DGYM` contract deployment, `1.000.000.000(1 billion)` will be minted (E
    * Price 30% higher than pre-seed final price
 3. **Public Sale Phase:**
    * Allocate 30% of tokens
-   * Price determined based on final private sale price
+   * Price 30% higher than private sale price
 4. **Token Burn:**
    * Burn all unsold tokens from the pre-seed phase
+
+### Token Burn Mechanism
+
+* **Pre-Seed Unsold Tokens**: All unsold tokens from the pre-seed phase will be burned
+* **Purpose:** To create scarcity, potentially increasing the value of the remaining tokens
+
+### Market Cap Adjustment
+
+* The price per token will be adjusted based on the market cap accumulated during each sale phase. This ensures a fair valuation and aligns the token price with the project's progress and market demand.
 
 This phased approach ensures fair distribution, rewards early investors, and aligns token prices with market demand and project progress.
