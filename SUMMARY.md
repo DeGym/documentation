@@ -29,7 +29,7 @@
 
 ## FAQs
 
-* [Question Foobar](faqs/question-foobar.md)
+* [Users](faqs/question-foobar.md)
 
 ## 🛣️ Roadmap
 
