@@ -2,7 +2,7 @@
 
 ## DGYM Token Inflation Mechanism
 
-The DGYM Token employs an inflation mechanism designed to regulate the token supply dynamically. This document explains how the inflation mechanism works and provides details about the smart contract's behavior.
+The DGYM Token employs an inflation mechanism **designed to regulate the token supply dynamically**. This document explains how the inflation mechanism works and provides details about the smart contract's behavior.
 
 ### Parameters
 
@@ -15,7 +15,9 @@ The DGYM Token employs an inflation mechanism designed to regulate the token sup
 
 The inflation rate is dynamically calculated based on the remaining supply ratio and a decay constant. The formula used is:
 
-\[ \text{inflation\_rate} = \text{decay\_constant} \times \left( \frac{\text{max\_supply} - \text{current\_supply\}}{\text{max\_supply\}} \right) ]
+$$
+\text{inflation_rate} = \text{decay_constant} \times \left( \frac{\text{max_supply} - \text{current_supply}}{\text{max_supply}} \right)
+$$
 
 Where:
 
@@ -25,7 +27,7 @@ Where:
 
 ### Inflation Application
 
-The inflation is applied annually. When the inflation is applied, new tokens are minted and added to the total supply. The total supply never exceeds the max supply of 10,000,000,000 DGYM.
+The inflation is applied monthly. When the inflation is applied, new tokens are minted and added to the total supply. **The total supply never exceeds the max supply of 10,000,000,000 DGYM**.
 
 ### Staking and Distribution
 
