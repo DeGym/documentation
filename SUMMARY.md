@@ -27,7 +27,7 @@
 * [Reward](technical/reward.md)
 * [Whitepaper](technical/whitepaper.md)
 
-## FAQs
+## ❔ FAQs
 
 * [Users](faqs/question-foobar.md)
 
