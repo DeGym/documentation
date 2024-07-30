@@ -1,10 +1,8 @@
 # ⚖️ Governance
 
-## Introduction
-
 DeGym's governance is an evolving process that aims to eventually achieve what's described in the whitepaper. For now, governance for major decisions in the ecosystem will go through an on-chain, direct-election governance vote where DGYM holders directly decide the direction the ecosystem takes.
 
-### Where are the governance vote proposals?
+## Where are the governance vote proposals?
 
 All governance vote proposals are stored on Github: https://github.com/DeGym-project/TIP.
 
@@ -12,13 +10,13 @@ Before a governance vote passes, they're called DeGym Improvement Proposals, or 
 
 Once these proposals make it to the governance vote, they'll also appear on snapshot.org (see below).
 
-### Where to vote?
+## Where to vote?
 
 DeGym's governance vote UI: https://snapshot.org/#/degym-project.eth
 
 The development team has integrated DeGym's mainnet with snapshot.org, which is an open-source platform that facilitates on-chain voting for over 29k web3 projects.
 
-### What's the voting system?
+## What's the voting system?
 
 The development team is bound by the outcome of the vote, and will implement whatever the outcome of the governance vote is.
 
@@ -26,13 +24,13 @@ The development team will adhere to a First Past the Post (FPTP) voting system, 
 
 In direct elections, the concept of quorum also does not apply. Quorum is a concept applicable to deliberative assemblies, or a body filled with representatives that were directly elected to their seats. Therefore there are no quorum considerations.
 
-### Which wallets can vote?
+## Which wallets can vote?
 
-All wallets on the DeGym network is able to vote.
+All wallets on the DeGym network is able to vote on ongoing proposals.
 
 DGYM stored on exchanges cannot be counted in voting. If your DGYM are on an exchange but wish to vote, you could pull the tokens out of an exchange into a wallet and participate in voting. You just need to make sure that the transfer occurs before the vote's snapshot cutoff (see below).
 
-### How are votes counted?
+## How are votes counted?
 
 A wallet's vote counts 2 components:
 
@@ -41,6 +39,40 @@ A wallet's vote counts 2 components:
 
 If you have 1 DGYM in your wallet, and you have 99 DGYM staked, then your total voting weight is 1 + 99 = 100.
 
-### How to vote?
+## How to vote?
 
 Please follow our step by step tutorial on how to use snapshot.org to vote.
+
+## **Who can create proposals?**
+
+Anyone having at least `500,000 $DGYM` tokens can create proposals. All proposals must adhere to the guidelines outlined in this section of the official DeGym DAO Gitbook, the latest published template, and must contain direct & objective descriptions. All other proposals will be deleted for housekeeping purposes.
+
+### Template <a href="#template" id="template"></a>
+
+```markdown
+# Proposal: [Title of Your Proposal]
+
+## Summary
+
+Provide a brief overview of what your proposal aims to achieve. Clearly state the problem you are addressing or the feature you propose implementing.
+
+## Motivation
+
+Explain the reason behind this proposal. Describe why this change or feature is essential for the DeGym ecosystem. Highlight any potential benefits or improvements it would bring.
+
+## Proposal Details
+
+Go into the details of your proposal:
+
+### Goals
+
+Outline the specific goals of your proposal. What do you intend to achieve by implementing this change or feature?
+
+### Implementation
+
+Describe the technical details of how you plan to implement this proposal. Include any relevant code changes, architecture considerations, and dependencies. Provide a step-by-step explanation if applicable.
+
+### User Experience
+
+Explain how DeGym DAO members and DeGym Protocol users will interact with this proposal. How will it impact their experience? If it's a user-facing feature, consider providing visual mock implementation.
+```
