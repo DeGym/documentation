@@ -41,6 +41,8 @@ Stakeholders can stake their DGYM tokens to earn rewards. The reward distributio
 * **ApplyInflation**: Applies the calculated inflation by minting new tokens and increasing the total supply.
 * **DistributeInflation**: Distributes the minted tokens among stakeholders based on their stake and duration.
 
+<figure><img src="../../.gitbook/assets/output.png" alt=""><figcaption></figcaption></figure>
+
 ```mermaid
 %%{init: {'theme': 'forest'}}%%
 graph TD

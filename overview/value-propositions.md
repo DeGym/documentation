@@ -4,10 +4,10 @@ description: >-
   access and the fitness industry:
 ---
 
-# Value Propositions
+# 💫 Value Propositions
 
 {% hint style="info" %}
-Summary:  This section describes why you're supposed to use DeGym:
+Summary: This section describes why you're supposed to use DeGym:
 
 * **Decentralized Governance**: Members of DeGym DAO have a say in key decisions, ensuring that the system evolves in ways that benefit all stakeholders — gym consumers, gym providers, and token holders.
 * **Transparency and Autonomy**: The use of DLT guarantees that all transactions and operations are transparent and secure, reducing fraud and increasing trust among participants.

@@ -1,4 +1,4 @@
-# DeGym NFT Vouchers
+# 🎫 NFT Voucher
 
 ## Nature and Functionality
 
@@ -19,4 +19,3 @@ DeGym Vouchers come in multiple tiers, ranging from Basic to Black, offering dif
 The Vouchers are integrated into the DeGym platform, allowing for seamless check-ins at gyms, tracking of gym visits, and participation in reward programs.
 
 Through these Vouchers, DeGym DAO revolutionizes how individuals access and utilize gym facilities, making fitness more accessible and adapted to digital and mobile lifestyles.
-
