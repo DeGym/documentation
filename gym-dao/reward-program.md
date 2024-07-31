@@ -1,6 +1,12 @@
+---
+description: >-
+  This document provides an overview of how both rewards work (commercial tokens
+  and DGYM tokens as rewards) for stakeholders
+---
+
 # 💎 Reward
 
-The reward programs for DGYM and Comercial Tokens in DeGym are designed to incentivize and reward stakeholders based on their participation and commitment to the platform. The DGYM rewards are influenced by the amount staked and the duration of the stake, while the comercial  rewards (derived from the voucher sellings) are only based on the amount staked.
+The reward programs for DGYM and Commercial Tokens in DeGym are designed to incentivize and reward stakeholders based on their participation and commitment to the platform. The DGYM rewards are influenced by the amount staked and the duration of the stake, while the commercial  rewards (derived from the voucher sales) are only based on the amount staked.
 
 ## Rewarding DGYM
 
@@ -48,6 +54,8 @@ Where:
 
 * $$R$$ is the total reward (generated from inflation).
 
+### Outflow
+
 After distribution, stakeholders can claim their DGYM rewards from all bonds not set as auto compound.
 
 ```mermaid
@@ -62,11 +70,11 @@ graph TB
     F --> G[Claim DGYM Not Set to Auto Compound]
 ```
 
-## Rewarding Comercial Token
+## Rewarding Commercial Token
 
 ### Inflow
 
-Inflows of the comercial token are generated through voucher sales.
+Inflows of the commercial token are generated through voucher sales.
 
 ### Distribution
 
@@ -74,24 +82,24 @@ Distributions are triggered at every voucher renewal. The distribution weight is
 
 ### Outflow
 
-After distribution, stakeholders can claim the comercial token at any moment.
+After distribution, stakeholders can claim the commercial token at any moment.
 
 ```mermaid
 %%{init: {'theme': 'forest'}}%%
 
 graph TB
-    A[Voucher Sales Generate Comercial Token Treasury] --> B[Distribution Triggered]
+    A[Voucher Sales Generate Commercial Token Treasury] --> B[Distribution Triggered]
     B --> C[Calculate Distribution Weight]
     C --> D[Amount Staked]
-    D --> E[Distribute Comercial Token]
-    E --> F[Claim Comercial Token Anytime]
+    D --> E[Distribute Commercial Token]
+    E --> F[Claim Commercial Token Anytime]
 ```
 
 ## Key Features
 
 * **Inflation Mechanism**: The reward distribution is more favorable in the early stages and gradually decreases over time.
 * **Stake Amount and Duration**: Both the amount staked and the duration of the lock influence the reward distribution.
-* **Comercial Token Rewards**: Users are rewarded in Comercial Token based on voucher purchases, distributed according to the stake amount.
+* **Commercial Token Rewards**: Users are rewarded in Commercial Token based on voucher purchases, distributed according to the stake amount.
 
 ## Detailed Steps
 
@@ -99,5 +107,5 @@ graph TB
 2. **Set Lock Duration**: Users set the duration for which their DGYM will be locked.
 3. **Calculate DGYM Reward**: The reward in DGYM is calculated based on the stake amount and lock duration.
 4. **Distribute DGYM Reward**: The calculated DGYM reward is distributed to the stakeholders.
-5. **Calculate Comercial Token Reward**: The reward in Comercial Token is calculated based on the stake amount.
-6. **Distribute Comercial Token Reward**: The calculated Comercial Token reward is distributed to the user.
+5. **Calculate Commercial Token Reward**: The reward in Commercial Token is calculated based on the stake amount.
+6. **Distribute Commercial Token Reward**: The calculated Commercial Token reward is distributed to the user.
