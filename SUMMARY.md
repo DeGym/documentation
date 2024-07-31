@@ -8,6 +8,7 @@
 * [🐢 Roadmap](overview/roadmap/README.md)
   * [Q3 2024](overview/roadmap/q3-2024.md)
   * [Q4 2024](overview/roadmap/q4-2024.md)
+* [🎨 Brand Assets](overview/brand-assets.md)
 
 ## Gym DAO
 
