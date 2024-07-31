@@ -1,6 +1,8 @@
-# 📜 Terms & Conditions
+---
+description: Terms of Service for DeGym DAO
+---
 
-Terms of Service for DeGym DAO
+# 📜 Terms & Conditions
 
 Effective Date: 01.09.2024
 
