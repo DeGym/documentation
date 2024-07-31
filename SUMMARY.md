@@ -5,6 +5,9 @@
 * [💚 Decentralized Gym Network](README.md)
 * [🎯 Purpose](overview/purpose.md)
 * [💫 Value Propositions](overview/value-propositions.md)
+* [🐢 Roadmap](overview/roadmap/README.md)
+  * [Q3 2024](overview/roadmap/q3-2024.md)
+  * [Q4 2024](overview/roadmap/q4-2024.md)
 
 ## Gym DAO
 
@@ -30,12 +33,6 @@
 ## ❔ FAQs
 
 * [Users](faqs/question-foobar.md)
-
-## 🛣️ Roadmap
-
-* [Q2 2024](roadmap/q2-2024.md)
-* [Q3 2024](roadmap/q3-2024.md)
-* [Roadmap](roadmap/roadmap.md)
 
 ## Contact and Support
 

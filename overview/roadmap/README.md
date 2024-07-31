@@ -5,7 +5,7 @@ description: >-
   activities for each period.
 ---
 
-# Roadmap
+# 🐢 Roadmap
 
 **Q1: Research & Planning**
 
@@ -22,7 +22,7 @@ description: >-
 **Month 2:**
 
 * **Feature Definition:**
-  * Define core features (NFT access, staking, pay-per-access, check-in, rewards).
+  * Define core features (NFT voucher, staking, check-in, rewards).
   * Plan gamification elements (badges, leaderboards, challenges).
 * **Technology Stack Decision:**
   * Select blockchain platform (e.g., Ethereum, Binance Smart Chain).

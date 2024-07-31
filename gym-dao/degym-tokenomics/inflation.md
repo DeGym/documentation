@@ -1,3 +1,7 @@
+---
+description: This section contains everything about the DGYM inflation
+---
+
 # ♻️ Inflation
 
 ## DGYM Token Inflation Mechanism

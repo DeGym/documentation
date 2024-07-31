@@ -1,7 +1,5 @@
 ---
-description: >-
-  Pre-Seed, Private Sale, and Public Sale Token Distribution Plan for DeGym
-  Project
+description: Pre-Seed, Private Sale, and Public Sale Token Distribution Plan
 ---
 
 # 🕧 Generation Phases
