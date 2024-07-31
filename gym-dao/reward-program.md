@@ -14,40 +14,41 @@ Distributions are triggered at every period where DGYM is inflated. The distribu
 
 To address the concern of extremely long lock times distorting the reward distribution, we can modify the time weight calculation using a logarithmic function. This approach ensures that the weight increases with time but at a diminishing rate, preventing excessively long lock durations from overwhelming the distribution.
 
-#### Weight Calculation
+#### Bond Weight Calculation
 
-We will use the following formula to calculate the weight for each user:
+We will use the following formula to calculate the weight for **each bond**:
 
 $$
-Weight_i​=A_i​×log(remainingTime_i ​+ 1)
+w_i​=a_i​×log(\Delta T_i ​+ 1)
 $$
 
 Where:
 
-* $$A_i$$ is the amount locked by user $$ii$$.
-* $$remainingTime_i$$ is the time locked by user $$ii$$ (in days).
+* $$a_i$$ is the DGYM amount locked by **bond** $$i$$.
+* $$\Delta T_i$$ is the remaining time locked by **bond** $$i$$ (in days).
+* $$w_i$$ is the amount locked by **bond** $$i$$.
 
 #### Total Weight Calculation
 
-The total weight for all users remains the same:
+The total weight for all staking bonds remains the same:
 
 $$
-TotalWeight=  \sum_{j=1}^{n}​(A_j​×log(remainingTime_j​+1))
+W=  \sum_{j=1}^{n}​w_j
 $$
 
 #### Distributed Reward
 
-The reward for each user can be calculated as follows:
+The reward for **each bond** can be calculated as follows:
 
 $$
-Reward_i​=(Weight_i \div TotalWeight​​)×R
+r_i​=\frac{w_i}{W}​​×R
 $$
 
 Where:
 
-* $$R$$ is the total reward pool.
+* $$R$$ is the total reward (generated from inflation).
 
-After distribution, stakeholders can claim the DGYM amount that is not set to auto compound.
+After distribution, stakeholders can claim their DGYM rewards from all bonds not set as auto compound.
 
 ```mermaid
 %%{init: {'theme': 'forest'}}%%
