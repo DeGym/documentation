@@ -16,7 +16,3 @@ Consumers begin their journey by understanding the unique value DeGym DAO offers
 
 1. **Activity Tracking**: The platform tracks gym usage and rewards consumers with points or crypto rewards for regular visits, promoting health and fitness.
 2. **Feedback and Community**: Members are encouraged to provide feedback on gym facilities and participate in community events and challenges.
-
-**Support**
-
-DeGym offers comprehensive support through FAQs, customer service channels, and community forums, ensuring that consumers have a smooth and enjoyable fitness experience.
