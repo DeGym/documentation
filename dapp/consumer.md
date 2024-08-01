@@ -2,7 +2,7 @@
 description: Journey of the Consumer (Gym-Goers)
 ---
 
-# Consumer
+# 🧘‍♂️ Consumer
 
 As a Consumer in the DeGym Network, your journey begins with a simple and seamless onboarding process. You sign up on the DeGym platform and connect your digital wallet. Once connected, you can explore a wide variety of gyms and fitness centers available on the platform. Using the intuitive search and filter options, you can find gyms that meet your specific needs based on location, activities, amenities, and membership tiers.
 

@@ -32,12 +32,10 @@
 * [🔒 Staking](dapp/staking/README.md)
   * [🤩 Staker](dapp/staking/staker.md)
   * [💎 Reward](dapp/staking/reward-program.md)
-* [Marketing HUB](dapp/marketing-hub.md)
 
 ## Technical
 
 * [Smart Contracts](technical/smart-contracts.md)
-* [Reward](technical/reward.md)
 * [Whitepaper](technical/whitepaper.md)
 
 ## ❔ FAQs
@@ -47,4 +45,4 @@
 ## Contact and Support
 
 * [Support channels](contact-and-support/support-channels.md)
-* [Community](contact-and-support/community.md)
+* [🍻 Community](contact-and-support/community.md)

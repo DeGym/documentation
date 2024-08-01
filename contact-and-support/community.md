@@ -1,4 +1,4 @@
-# Comunity
+# 🍻 Community
 
 X
 
