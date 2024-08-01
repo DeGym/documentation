@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Introduction](README.md)
+
 ## Overview
 
-* [💚 Decentralized Gym Network](README.md)
+* [💚 Decentralized Gym Network](<README (1).md>)
 * [🎯 Purpose](overview/purpose.md)
 * [💫 Value Propositions](overview/value-propositions.md)
 * [🐢 Roadmap](overview/roadmap/README.md)
@@ -10,20 +12,21 @@
   * [Q4 2024](overview/roadmap/q4-2024.md)
 * [🎨 Brand Assets](overview/brand-assets.md)
 
-## Gym DAO
+## DeGym DAO
 
-* [🎫 NFT Voucher](gym-dao/nft-voucher.md)
-* [Consumer](gym-dao/consumer.md)
-* [Provider](gym-dao/provider.md)
-* [Check-in Process](gym-dao/check-in-process.md)
-* [Staker](gym-dao/staker.md)
-* [💎 Reward](gym-dao/reward-program.md)
-* [💲 DGYM Tokenomics](gym-dao/dgym-tokenomics/README.md)
-  * [📊 Allocation](gym-dao/dgym-tokenomics/usddgym-tokenomics.md)
-  * [🕧 Generation Phases](gym-dao/dgym-tokenomics/pre-seed.md)
-  * [♻️ Inflation](gym-dao/dgym-tokenomics/inflation.md)
-* [⚖️ Governance](gym-dao/governance.md)
-* [📜 Terms & Conditions](gym-dao/terms-and-conditions.md)
+* [👑 Organization](degym-dao/organization.md)
+* [🎫 NFT Voucher](degym-dao/nft-voucher.md)
+* [Consumer](degym-dao/consumer.md)
+* [Provider](degym-dao/provider.md)
+* [Check-in Process](degym-dao/check-in-process.md)
+* [Staker](degym-dao/staker.md)
+* [💎 Reward](degym-dao/reward-program.md)
+* [💲 DGYM Tokenomics](degym-dao/dgym-tokenomics/README.md)
+  * [📊 Allocation](degym-dao/dgym-tokenomics/usddgym-tokenomics.md)
+  * [🕧 Generation Phases](degym-dao/dgym-tokenomics/pre-seed.md)
+  * [♻️ Inflation](degym-dao/dgym-tokenomics/inflation.md)
+* [⚖️ Governance](degym-dao/governance.md)
+* [📜 Terms & Conditions](degym-dao/terms-and-conditions.md)
 
 ## Technical
 
