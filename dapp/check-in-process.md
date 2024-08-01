@@ -1,11 +1,15 @@
-# Check-in Process
+---
+description: Detailed Check-in Process Using Smart Contracts
+---
 
-#### Detailed Check-in Process Using Smart Contracts for DeGym DAO
+# ✅ Check-in
 
-The check-in process in DeGym DAO leverages a robust smart contract system designed to handle interactions securely and efficiently:
+
+
+The check-in process in DeGym leverages a robust smart contract system designed to handle interactions securely and efficiently:
 
 1. **Consumer Check-in Initiation**:
-   * **Action**: The consumer arrives at the gym and opens the DeGym app.
+   * **Action**: The consumer arrives at the gym and opens the DeGym DApp.
    * **Process**: The consumer selects the check-in option which triggers the app to interact with the smart contract on the blockchain.
 2. **Smart Contract Activation**:
    * **Validation**: The smart contract first verifies the authenticity and validity of the consumer's NFT voucher for the current day.
@@ -25,8 +29,6 @@ The check-in process in DeGym DAO leverages a robust smart contract system desig
 7. **Post-Check-in Actions**:
    * **Feedback Request**: The consumer is prompted to rate their experience, providing valuable feedback to the gym.
    * **Usage Analytics**: The gym receives data about the frequency of visits, which helps in planning and resource allocation.
-
-&#x20;
 
 ```mermaid
 %%{init: {'theme': ''}}%%

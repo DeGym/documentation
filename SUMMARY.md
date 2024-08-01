@@ -26,9 +26,9 @@
 
 * [🎫 NFT Voucher](dapp/nft-voucher.md)
 * [🔍 Search Gyms](dapp/search-gyms.md)
-* [Consumer](dapp/consumer.md)
+* [🧘‍♂️ Consumer](dapp/consumer.md)
 * [🗿 Provider](dapp/provider.md)
-* [Check-in Process](dapp/check-in-process.md)
+* [✅ Check-in](dapp/check-in-process.md)
 * [🔒 Staking](dapp/staking/README.md)
   * [🤩 Staker](dapp/staking/staker.md)
   * [💎 Reward](dapp/staking/reward-program.md)
