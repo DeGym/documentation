@@ -1,6 +1,12 @@
+---
+description: Journey of the Consumer (Gym-Goers)
+---
+
 # Consumer
 
-Consumers begin their journey by understanding the unique value DeGym DAO offers through its NFT-based gym voucher, which provide seamless access to multiple gyms.
+As a Consumer in the DeGym Network, your journey begins with a simple and seamless onboarding process. You sign up on the DeGym platform and connect your digital wallet. Once connected, you can explore a wide variety of gyms and fitness centers available on the platform. Using the intuitive search and filter options, you can find gyms that meet your specific needs based on location, activities, amenities, and membership tiers.
+
+After selecting a gym, you can purchase vouchers for membership or specific activities directly from the platform. These [vouchers](nft-voucher.md) are tokenized, providing flexibility and transparency. You can redeem them at your chosen gym, gaining access to their facilities and services. Throughout your fitness journey, you earn rewards in the form of DGYM tokens for each workout session, which can be used for various benefits within the DeGym ecosystem.
 
 **Voucher Purchase**
 
@@ -16,3 +22,11 @@ Consumers begin their journey by understanding the unique value DeGym DAO offers
 
 1. **Activity Tracking**: The platform tracks gym usage and rewards consumers with points or crypto rewards for regular visits, promoting health and fitness.
 2. **Feedback and Community**: Members are encouraged to provide feedback on gym facilities and participate in community events and challenges.
+
+**Benefits of Becoming a Consumer**
+
+1. **Flexibility and Transparency**: Tokenized vouchers provide flexibility in purchasing and redeeming gym memberships and services.
+2. **Earn Rewards**: Earn DGYM tokens for each workout session, turning your fitness efforts into tangible rewards.
+3. **Wide Selection**: Access a diverse range of gyms and fitness centers, allowing you to choose the best fit for your needs.
+4. **Exclusive Offers**: Gain access to exclusive offers and discounts available only to DeGym Network members.
+5. **Seamless Experience**: Enjoy a user-friendly platform that simplifies the process of finding, purchasing, and redeeming gym memberships and services.
