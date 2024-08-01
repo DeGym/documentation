@@ -12,7 +12,7 @@ The reward programs for DGYM and Commercial Tokens in DeGym are designed to ince
 
 ### Inflow
 
-Inflows of DGYM are generated through [inflation](dgym-tokenomics/inflation.md).
+Inflows of DGYM are generated through [inflation](../../degym-dao/dgym-tokenomics/inflation.md).
 
 ### Distribution
 

@@ -2,13 +2,13 @@
 description: First and foremost a governance token with lots of utility
 ---
 
-# 💲 DeGym Tokenomics
+# 💲 DGYM Tokenomics
 
 Note: this is a _**preliminary outline**_ of the overall intent for the DeGym DAO's economics. These designs will be finalized at dapp launch via the governance process by stakeholders from the community, and they are subject to alterations via the same process.
 
 DeGym token would also provide the economic incentives which will be distributed to encourage users to contribute and maintain the ecosystem on DeGym, thereby creating a win-win system where every participant is fairly compensated for its efforts. DeGym token is an integral and indispensable part of DeGym, because without DeGym token, there would be no incentive for users to expend resources to participate in activities or provide services for the benefit of the entire ecosystem on DeGym. Given that additional DeGym token will be awarded to a user based only on its actu~~a~~l usage, activity and contribution on DeGym, users of DeGym and/or holders of DeGym token which did not actively participate will not receive any DeGym token incentives.
 
-There will be inflation (see the section on [Inflation](inflation.md)) which comes in the form of [rewards](../reward-program.md) providing staking yield, but will only inflate upon stakes that are in circulation and have been bond in the staking dapp. In other words, any tokens that are locked cannot be staked, therefore generates no inflation.
+There will be inflation (see the section on [Inflation](inflation.md)) which comes in the form of [rewards](../../products/staking/reward-program.md) providing staking yield, but will only inflate upon stakes that are in circulation and have been bond in the staking dapp. In other words, any tokens that are locked cannot be staked, therefore generates no inflation.
 
 ***
 

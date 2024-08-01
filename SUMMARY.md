@@ -15,18 +15,24 @@
 ## DeGym DAO
 
 * [👑 Organization](degym-dao/organization.md)
-* [🎫 NFT Voucher](degym-dao/nft-voucher.md)
-* [Consumer](degym-dao/consumer.md)
-* [Provider](degym-dao/provider.md)
-* [Check-in Process](degym-dao/check-in-process.md)
-* [Staker](degym-dao/staker.md)
-* [💎 Reward](degym-dao/reward-program.md)
 * [💲 DGYM Tokenomics](degym-dao/dgym-tokenomics/README.md)
   * [📊 Allocation](degym-dao/dgym-tokenomics/usddgym-tokenomics.md)
   * [🕧 Generation Phases](degym-dao/dgym-tokenomics/pre-seed.md)
   * [♻️ Inflation](degym-dao/dgym-tokenomics/inflation.md)
 * [⚖️ Governance](degym-dao/governance.md)
 * [📜 Terms & Conditions](degym-dao/terms-and-conditions.md)
+
+## PRODUCTS
+
+* [DeGym DApp](products/degym-dapp/README.md)
+  * [Consumer](products/degym-dapp/consumer.md)
+  * [Provider](products/degym-dapp/provider.md)
+  * [🎫 NFT Voucher](products/degym-dapp/nft-voucher.md)
+  * [Check-in Process](products/degym-dapp/check-in-process.md)
+* [Staking](products/staking/README.md)
+  * [Staker](products/staking/staker.md)
+  * [💎 Reward](products/staking/reward-program.md)
+* [Marketing HUB](products/marketing-hub.md)
 
 ## Technical
 
