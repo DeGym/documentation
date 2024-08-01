@@ -22,17 +22,17 @@
 * [⚖️ Governance](degym-dao/governance.md)
 * [📜 Terms & Conditions](degym-dao/terms-and-conditions.md)
 
-## PRODUCTS
+## DAPP
 
-* [DeGym DApp](products/degym-dapp/README.md)
-  * [Consumer](products/degym-dapp/consumer.md)
-  * [Provider](products/degym-dapp/provider.md)
-  * [🎫 NFT Voucher](products/degym-dapp/nft-voucher.md)
-  * [Check-in Process](products/degym-dapp/check-in-process.md)
-* [Staking](products/staking/README.md)
-  * [Staker](products/staking/staker.md)
-  * [💎 Reward](products/staking/reward-program.md)
-* [Marketing HUB](products/marketing-hub.md)
+* [🎫 NFT Voucher](dapp/nft-voucher.md)
+* [🔍 Search Gyms](dapp/search-gyms.md)
+* [Consumer](dapp/consumer.md)
+* [Provider](dapp/provider.md)
+* [Check-in Process](dapp/check-in-process.md)
+* [🔒 Staking](dapp/staking/README.md)
+  * [🤩 Staker](dapp/staking/staker.md)
+  * [💎 Reward](dapp/staking/reward-program.md)
+* [Marketing HUB](dapp/marketing-hub.md)
 
 ## Technical
 
