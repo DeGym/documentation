@@ -1,11 +1,19 @@
+---
+description: Contact Us
+---
+
 # 📣 Community
 
-X
+Website: [https://degym.vercel.app/](https://degym.vercel.app/)
 
-Telegram
+X: [https://x.com/degym\_network](https://x.com/degym\_network)
 
-Blog
+Telegram: [https://t.me/degym\_dao](https://t.me/degym\_dao)
 
-Medium
+Discord: [https://discord.gg/4keCvDRNuY](https://discord.gg/4keCvDRNuY)
 
-Discord
+Blog: coming soon
+
+Medium: coming soon
+
+Snapshot: coming soon
