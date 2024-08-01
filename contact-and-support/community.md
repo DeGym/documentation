@@ -1,4 +1,4 @@
-# 🍻 Community
+# 📣 Community
 
 X
 

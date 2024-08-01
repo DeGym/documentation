@@ -44,5 +44,4 @@
 
 ## Contact and Support
 
-* [Support channels](contact-and-support/support-channels.md)
-* [🍻 Community](contact-and-support/community.md)
+* [📣 Community](contact-and-support/community.md)
