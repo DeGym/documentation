@@ -1,8 +1,20 @@
-# Provider
+---
+description: >-
+  Reach a broader audience and increase your gym’s visibility and membership
+  base.
+---
 
-**Becoming a Provider**
+# 🗿 Provider
 
-To become a gym provider within the DeGym DAO ecosystem, facilities must lock in a minimum stake as proof of commitment. This staked amount serves as both a guarantee of the gym's commitment to the network and a means to facilitate smooth operational integrations.
+As a Provider on the DeGym Network, your journey starts with registering your gym or fitness center on the platform. You create a detailed profile highlighting your facilities, services, and which voucher do your gym accept for check-in. This profile is then accessible to all users on the DeGym platform.
+
+{% hint style="info" %}
+As guarantee you must lock a minimum stake amount of 500,000 DGYM as proof of commitment (subjective to alteration through voting)
+{% endhint %}
+
+Once registered, you can start accepting the configured tokenized vouchers from Consumers. The platform provides tools to manage memberships, track redemptions, and monitor customer engagement.
+
+When a Consumer arrives at your gym and initiates a check-in, the payment is automatically processed through their voucher. This triggers the access for the gym-goer to use your facilities. You can also offer exclusive rewards and incentives to attract more members.&#x20;
 
 **Setting Up Check-in Payments**
 
@@ -11,10 +23,12 @@ Each gym has the autonomy to set a minimum compensation they wish to receive for
 * **Gym A** may choose to only accept Gold tier members or higher, aiming for a premium clientele, thereby setting a higher minimum payment per check-in.
 * **Gym B** might opt to accept Basic members, thus setting a lower payment threshold, which might attract more frequent check-ins but at lower rates per visit.
 
-**Operational Details**
+**Benefits of Becoming a Provider**
 
-1. **Integration**: Gyms integrate DeGym's DLT to track visits and manage payments automatically.
-2. **Customization**: Each gym can tailor the types of vouchers it accepts based on its business model and customer base.
-3. **Rewards System**: Gyms benefit from increased traffic and participation through the DAO, enhancing their visibility and profitability within the network.
+1. **Increased Visibility**: Reach a larger audience and attract more members by being part of the DeGym Network.
+2. **Efficient Management**: Use the platform’s tools to efficiently manage memberships, track redemptions, and monitor customer engagement.
+3. **Secure Transactions**: Benefit from the security and transparency provided by blockchain technology in all transactions.
+4. **Additional Revenue Streams**: Offer exclusive rewards and incentives to attract more members and increase your revenue.
+5. **Community Engagement**: Engage with a vibrant community of fitness enthusiasts and provide them with unique experiences and offers.
 
 This model not only incentivizes gyms to maintain high standards to attract and retain members but also fosters a competitive environment where facilities are rewarded based on the value they provide to the community.

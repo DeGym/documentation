@@ -19,7 +19,7 @@
   * [📊 Allocation](degym-dao/dgym-tokenomics/usddgym-tokenomics.md)
   * [🕧 Generation Phases](degym-dao/dgym-tokenomics/pre-seed.md)
   * [♻️ Inflation](degym-dao/dgym-tokenomics/inflation.md)
-* [⚖️ Governance](degym-dao/governance.md)
+* [🎮 Governance](degym-dao/governance.md)
 * [📜 Terms & Conditions](degym-dao/terms-and-conditions.md)
 
 ## DAPP
@@ -27,7 +27,7 @@
 * [🎫 NFT Voucher](dapp/nft-voucher.md)
 * [🔍 Search Gyms](dapp/search-gyms.md)
 * [Consumer](dapp/consumer.md)
-* [Provider](dapp/provider.md)
+* [🗿 Provider](dapp/provider.md)
 * [Check-in Process](dapp/check-in-process.md)
 * [🔒 Staking](dapp/staking/README.md)
   * [🤩 Staker](dapp/staking/staker.md)

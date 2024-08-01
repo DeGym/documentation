@@ -6,7 +6,9 @@ description: Journey of the Consumer (Gym-Goers)
 
 As a Consumer in the DeGym Network, your journey begins with a simple and seamless onboarding process. You sign up on the DeGym platform and connect your digital wallet. Once connected, you can explore a wide variety of gyms and fitness centers available on the platform. Using the intuitive search and filter options, you can find gyms that meet your specific needs based on location, activities, amenities, and membership tiers.
 
-After selecting a gym, you can purchase vouchers for membership or specific activities directly from the platform. These [vouchers](nft-voucher.md) are tokenized, providing flexibility and transparency. You can redeem them at your chosen gym, gaining access to their facilities and services. Throughout your fitness journey, you earn rewards in the form of DGYM tokens for each workout session, which can be used for various benefits within the DeGym ecosystem.
+After selecting a gym, you can purchase vouchers for membership or specific activities directly from the platform. These [vouchers](nft-voucher.md) are tokenized, providing flexibility and transparency. When you arrive at the gym, you initiate a check-in process through the DeGym app. This check-in triggers the payment to the gym using your voucher, and the gym then enables you to use their facilities.
+
+Throughout your fitness journey, you earn rewards in the form of DGYM tokens for each workout session, which can be used for various benefits within the DeGym ecosystem.
 
 **Voucher Purchase**
 
