@@ -35,7 +35,7 @@
 
 ## Technical
 
-* [Smart Contracts](technical/smart-contracts.md)
+* [📝 Smart Contracts](technical/smart-contracts.md)
 * [Whitepaper](technical/whitepaper.md)
 
 ## ❔ FAQs

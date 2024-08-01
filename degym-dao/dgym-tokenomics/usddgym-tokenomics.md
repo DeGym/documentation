@@ -1,5 +1,7 @@
 ---
-description: Initial Allocation Plan
+description: >-
+  Initial Allocation Plan - Percentages based on the original 1bn supply
+  (Initial Supply)
 ---
 
 # 📊 Allocation
