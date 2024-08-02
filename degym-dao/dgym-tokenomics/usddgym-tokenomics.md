@@ -6,6 +6,8 @@ description: >-
 
 # 📊 Allocation
 
+Explore the comprehensive allocation plan for the DeGym **$DGYM** token, designed to empower our community and drive healthy on Taraxa:
+
 ```mermaid
 %%{init: {'theme': 'forest'}}%%
 
