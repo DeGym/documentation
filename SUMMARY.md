@@ -20,6 +20,7 @@
   * [🕧 Generation Phases](degym-dao/dgym-tokenomics/pre-seed.md)
   * [♻️ Inflation](degym-dao/dgym-tokenomics/inflation.md)
 * [🎮 Governance](degym-dao/governance/README.md)
+  * [💡 Proposal](degym-dao/governance/proposal.md)
   * [⚡ Voting](degym-dao/governance/voting.md)
 * [📜 Terms & Conditions](degym-dao/terms-and-conditions.md)
 

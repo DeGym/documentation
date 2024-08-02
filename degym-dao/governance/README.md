@@ -4,17 +4,15 @@ DeGym's governance is an evolving process that aims to eventually achieve what's
 
 ## Where are the governance vote proposals?
 
-All governance vote proposals are stored on Github: https://github.com/DeGym-project/TIP.
+All governance vote proposals are stored on Github: [https://github.com/DeGym/DGIP](https://github.com/DeGym/DGIP).
 
-Before a governance vote passes, they're called DeGym Improvement Proposals, or TIP. It is a public repository and anyone can create a pull request to submit a proposal. Please make sure that proposals are well-articulated and well-researched, so that the DeGym community is able to make an informed decision during the governance vote.
+Before a governance vote passes, they're called DeGym Improvement Proposals, or DGIP. It is a public repository and anyone can create a pull request to submit a proposal. Please make sure that proposals are well-articulated and well-researched, so that the DeGym community is able to make an informed decision during the governance vote.
 
 Once these proposals make it to the governance vote, they'll also appear on snapshot.org (see below).
 
 ## Where to vote?
 
-DeGym's governance vote UI: https://snapshot.org/#/degym-project.eth
-
-The development team has integrated DeGym's mainnet with snapshot.org, which is an open-source platform that facilitates on-chain voting for over 29k web3 projects.
+DeGym's governance vote UI: https://snapshot.org/#/degym-dao.eth
 
 ## What's the voting system?
 
@@ -43,36 +41,6 @@ If you have 1 DGYM in your wallet, and you have 99 DGYM staked, then your total 
 
 Please follow our step by step tutorial on how to use snapshot.org to vote.
 
-## **Who can create proposals?**
+## **How to propose?**
 
-Anyone having at least `500,000 $DGYM` tokens can create proposals. All proposals must adhere to the guidelines outlined in this section of the official DeGym DAO Gitbook, the latest published template, and must contain direct & objective descriptions. All other proposals will be deleted for housekeeping purposes.
-
-### Template <a href="#template" id="template"></a>
-
-```markdown
-# Proposal: [Title of Your Proposal]
-
-## Summary
-
-Provide a brief overview of what your proposal aims to achieve. Clearly state the problem you are addressing or the feature you propose implementing.
-
-## Motivation
-
-Explain the reason behind this proposal. Describe why this change or feature is essential for the DeGym ecosystem. Highlight any potential benefits or improvements it would bring.
-
-## Proposal Details
-
-Go into the details of your proposal:
-
-### Goals
-
-Outline the specific goals of your proposal. What do you intend to achieve by implementing this change or feature?
-
-### Implementation
-
-Describe the technical details of how you plan to implement this proposal. Include any relevant code changes, architecture considerations, and dependencies. Provide a step-by-step explanation if applicable.
-
-### User Experience
-
-Explain how DeGym DAO members and DeGym Protocol users will interact with this proposal. How will it impact their experience? If it's a user-facing feature, consider providing visual mock implementation.
-```
+Please follow our step by step tutorial on how to use snapshot.org to create proposal.
