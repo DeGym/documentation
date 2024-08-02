@@ -10,28 +10,38 @@ The DGYM Token employs an inflation mechanism **designed to regulate the token s
 
 ### Parameters
 
-* **Decay Constant**: 0.004
+* **Inflation Decay Constant**: 0.0015
 * **Max Supply**: 10,000,000,000 DGYM
 * **Initial Supply**: 1,000,000,000 DGYM
-* **Inflation Interval**: Monthly
+* **Inflation Interval**: Daily
+
+
+
+{% hint style="info" %}
+These parameters can be modified through the DAO voting&#x20;
+{% endhint %}
 
 ### Inflation Rate Calculation
 
 The inflation rate is dynamically calculated based on the remaining supply ratio and a decay constant. The formula used is:
 
 $$
-\text{inflation_rate} = \text{decay_constant} \times \left( \frac{\text{max_supply} - \text{current_supply}}{\text{max_supply}} \right)
+Y_c = D_c \times \left( \frac{S_m - S_c}{S_m} \right)
 $$
+
+
+
+
 
 Where:
 
-* `decay_constant` is 0.04.
-* `current_supply` is the total supply of DGYM at the time of calculation.
-* `max_supply` is 10,000,000,000 DGYM.
+* $$D_c$$ is the inflation decay constant.
+* $$S_m$$ is the maximum supply.
+* $$S_c$$ is the current supply.
 
 ### Inflation Application
 
-The inflation is applied monthly. When the inflation is applied, new tokens are minted and added to the total supply. **The total supply never exceeds the max supply of 10,000,000,000 DGYM**.
+The inflation is applied daily. When the inflation is applied, new tokens are minted and added to the total supply. **The total supply asymptotically approaches the the max supply**.
 
 ### Staking and Distribution
 
