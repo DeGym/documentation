@@ -14,7 +14,7 @@
 
 ## DeGym DAO
 
-* [👑 Organization](degym-dao/organization.md)
+* [👥 Organization](degym-dao/organization.md)
 * [💲 DGYM Tokenomics](degym-dao/dgym-tokenomics/README.md)
   * [📊 Allocation](degym-dao/dgym-tokenomics/usddgym-tokenomics.md)
   * [🕧 Generation Phases](degym-dao/dgym-tokenomics/pre-seed.md)
