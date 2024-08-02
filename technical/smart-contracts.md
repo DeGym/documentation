@@ -1,11 +1,14 @@
-# Smart Contracts
+# 📝 Smart Contracts
 
-## Overview
+## Smart Contracts
+
+### Overview
 
 This documentation provides detailed information on the smart contracts used in the DeGym project. Each section includes a description of the contract's purpose, key functions, the Solidity code, and mermaid.js diagrams to illustrate contract interactions.
 
-## Contracts
-### ERC20 Token Contract
+### Contracts
+
+#### ERC20 Token Contract
 
 **Purpose**
 
@@ -13,12 +16,12 @@ The Token Contract manages the creation and distribution of the project's native
 
 **Key Functions**
 
-* *totalSupply():* Returns the total supply of the token.
-* *balanceOf(address):* Returns the token balance of a specific address.
-* *transfer(address, uint256):* Transfers tokens from the caller to a specified address.
-* *approve(address, uint256):* Allows another address to spend a specified amount of tokens on behalf of the caller.
-* *transferFrom(address, address, uint256):* Transfers tokens from one address to another using the allowance mechanism.
-* *allowance(address, address):* Returns the remaining number of tokens that a spender is allowed to spend on behalf of the owner.
+* _totalSupply():_ Returns the total supply of the token.
+* _balanceOf(address):_ Returns the token balance of a specific address.
+* _transfer(address, uint256):_ Transfers tokens from the caller to a specified address.
+* _approve(address, uint256):_ Allows another address to spend a specified amount of tokens on behalf of the caller.
+* _transferFrom(address, address, uint256):_ Transfers tokens from one address to another using the allowance mechanism.
+* _allowance(address, address):_ Returns the remaining number of tokens that a spender is allowed to spend on behalf of the owner.
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -32,8 +35,6 @@ contract DeGymToken is ERC20 {
     }
 }
 ```
-
-&#x20;
 
 ```mermaid
 %%{init: {'theme': 'forest'}}%%
@@ -50,9 +51,9 @@ classDiagram
 
 ```
 
----
+***
 
-## Voucher NFT Contract
+### Voucher NFT Contract
 
 **Purpose**
 
@@ -60,10 +61,9 @@ The GymVoucher NFT contract handles the creation, management, and functionality 
 
 **Key Functions**
 
-* *upgradeVoucher(uint256, uint256):* Upgrades the voucher to a higher tier and charges for the remaining DCP.
-* *renewVoucher(uint256, uint256):* Renews the voucher for additional days and charges for the remaining DCP.
-* *downgradeVoucher(uint256, uint256):* Downgrades the voucher to a lower tier, redistributing the remaining DCP over a longer duration.
-
+* _upgradeVoucher(uint256, uint256):_ Upgrades the voucher to a higher tier and charges for the remaining DCP.
+* _renewVoucher(uint256, uint256):_ Renews the voucher for additional days and charges for the remaining DCP.
+* _downgradeVoucher(uint256, uint256):_ Downgrades the voucher to a lower tier, redistributing the remaining DCP over a longer duration.
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -169,8 +169,6 @@ contract GymVoucher is ERC721URIStorage, Ownable {
 }
 ```
 
-&#x20;
-
 ```mermaid
 %%{init: {'theme': 'forest'}}%%
 
@@ -195,9 +193,9 @@ classDiagram
     GymVoucher -- IERC20
 ```
 
----
+***
 
-## Gym Provider Certificate Contract
+### Gym Provider Certificate Contract
 
 **Purpose**
 
@@ -205,10 +203,9 @@ The Gym Provider Certificate Contract manages the issuance and validation of cer
 
 **Key Functions**
 
-* *issueCertificate(address, uint256):* Issues a new certificate to a gym provider with a specified tier.
-* *validateCertificate(uint256):* Validates if the certificate meets the tier requirements and the gym provider has the necessary DGYM tokens staked.
-* *revokeCertificate(uint256):* Revokes a certificate if the gym provider fails to maintain the required stake.
-
+* _issueCertificate(address, uint256):_ Issues a new certificate to a gym provider with a specified tier.
+* _validateCertificate(uint256):_ Validates if the certificate meets the tier requirements and the gym provider has the necessary DGYM tokens staked.
+* _revokeCertificate(uint256):_ Revokes a certificate if the gym provider fails to maintain the required stake.
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -276,9 +273,9 @@ classDiagram
     GymProviderCertificate -- IStakingContract
 ```
 
----
+***
 
-## Checkin Contract
+### Checkin Contract
 
 **Purpose**
 
@@ -286,7 +283,7 @@ The Checkin contract validates and records check-ins at gym facilities. It ensur
 
 **Key Functions**
 
-* *checkin(uint256, uint256):* Validates and records a check-in.
+* _checkin(uint256, uint256):_ Validates and records a check-in.
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -323,7 +320,6 @@ contract Checkin is Ownable {
 }
 ```
 
-
 ```mermaid
 %%{init: {'theme': 'forest'}}%%
 %%{init: {'theme': 'forest'}}%%
@@ -336,9 +332,9 @@ classDiagram
     Checkin -- IGymVoucher
 ```
 
----
+***
 
-# Stake Contract
+## Stake Contract
 
 **Purpose**
 
@@ -346,9 +342,9 @@ The Stake contract allows users to stake $DGYM tokens and choose between receivi
 
 **Key Functions**
 
-* *stake(uint256, bool):* Stakes $DGYM tokens.
-* *unstake(uint256):* Unstakes $DGYM tokens.
-* *distributeRewards(address, uint256, bool):* Distributes rewards to stakeholders.
+* _stake(uint256, bool):_ Stakes $DGYM tokens.
+* _unstake(uint256):_ Unstakes $DGYM tokens.
+* _distributeRewards(address, uint256, bool):_ Distributes rewards to stakeholders.
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -409,7 +405,6 @@ contract Stake is Ownable {
 }
 ```
 
-
 ```mermaid
 %%{init: {'theme': 'forest'}}%%
 
@@ -428,8 +423,7 @@ classDiagram
     Stake -- StakeInfo
 ```
 
-
-# Final Notes
+## Final Notes
 
 * **Voucher NFT Contract** handles the creation and management of gym membership vouchers, including pricing, check-ins, and reward distribution.
 * **GymProviderCertificate Contract** ensures gym providers have the necessary certificates to offer gym services based on their tier and staked $DGYM tokens.

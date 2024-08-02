@@ -19,7 +19,8 @@
   * [📊 Allocation](degym-dao/dgym-tokenomics/usddgym-tokenomics.md)
   * [🕧 Generation Phases](degym-dao/dgym-tokenomics/pre-seed.md)
   * [♻️ Inflation](degym-dao/dgym-tokenomics/inflation.md)
-* [🎮 Governance](degym-dao/governance.md)
+* [🎮 Governance](degym-dao/governance/README.md)
+  * [⚡ Voting](degym-dao/governance/voting.md)
 * [📜 Terms & Conditions](degym-dao/terms-and-conditions.md)
 
 ## DAPP
