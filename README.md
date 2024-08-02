@@ -1,3 +1,7 @@
+---
+description: Welcome to DeGym Network. Where Fitness Meets Finance.
+---
+
 # Introduction
 
 Welcome to DeGym Network, a revolutionary platform at the intersection of fitness, finance, and technology. Our mission is to reshape the fitness industry by leveraging the power of decentralized finance (DeFi) and blockchain technology. Whether you’re a fitness enthusiast, a gym owner, or an investor looking for innovative opportunities, DeGym Network offers something extraordinary for you.
@@ -21,24 +25,14 @@ DeGym Network introduces a dynamic and decentralized approach to gym memberships
 
 #### How It Works
 
-1. **Join the Network**: Sign up on DeGym Network and connect your digital wallet.
-2. **Acquire Membership Tokens**: Purchase or rent membership tokens that suit your fitness needs.
+1. **Join the Network**: Sign up on DeGym DApp connecting your web3 wallet (ensure that you are connected to [taraxa mainnet](https://docs.taraxa.io/wallet)).
+2. **Acquire your NFT Voucher**: Purchase NFT voucher that suit your fitness needs.
 3. **Earn While You Burn**: As you work out, earn DeGym tokens (DGYM) that can be redeemed for various benefits.
 4. **Trade and Stake**: Use your tokens to access exclusive services, trade them on our marketplace, or stake them for additional rewards.
 5. **Enjoy the Benefits**: Experience the flexibility, transparency, and rewards that come with being part of the DeGym community.
 
 #### The Community
 
-At the heart of DeGym Network is our vibrant community. We are more than just a platform; we are a movement. Our community is composed of fitness enthusiasts, gym owners, and investors who believe in the power of decentralization and the potential of blockchain technology to create positive change.
-
-#### To Get Started <a href="#to-get-started" id="to-get-started"></a>
-
-1. Install a wallet you like, preferably a Metamask wallet.
-2. Set up your wallet (if it is a newly created wallet).
-3. You can verify how to connect to taraxa network here
-4. Get some **$TARA,** you can buy TARA through various CEXs.
-5. Buy our token on **Pre-Seed**. (coming soon)
+At the heart of DeGym Network is our vibrant community. We are more than just a platform; we are a movement. Our community is composed of fitness enthusiasts, gym owners, and investors who believe in the power of decentralization and the potential of public distributed ledger technology to create positive change.
 
 Are you ready to be part of the future of fitness? Join DeGym Network today and start your journey towards a more rewarding and flexible fitness experience. Together, we can build a healthier, wealthier, and more connected world.
-
-Welcome to DeGym Network. Where Fitness Meets Finance.
