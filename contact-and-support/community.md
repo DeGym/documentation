@@ -1,16 +1,16 @@
 ---
-description: Contact Us
+description: Join Us
 ---
 
 # 📣 Community
 
-Website: [https://degym.vercel.app/](https://degym.vercel.app/)
+{% embed url="https://degym.vercel.app/" %}
 
-X: [https://x.com/degym\_network](https://x.com/degym\_network)
+{% embed url="https://x.com/degym_network" %}
 
-Telegram: [https://t.me/degym\_dao](https://t.me/degym\_dao)
+{% embed url="https://t.me/degym_dao" %}
 
-Discord: [https://discord.gg/4keCvDRNuY](https://discord.gg/4keCvDRNuY)
+{% embed url="https://discord.gg/4keCvDRNuY" %}
 
 Blog: coming soon
 
