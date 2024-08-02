@@ -4,7 +4,7 @@ description: Everything you need to know to submit proposals
 
 # 💡 Proposal
 
-## DGIP - DeGym Improvement Proposal <a href="#template" id="template"></a>
+## DGIP - DeGym Improvement Proposals <a href="#template" id="template"></a>
 
 {% embed url="https://github.com/DeGym/DGIP" %}
 
