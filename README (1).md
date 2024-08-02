@@ -1,4 +1,7 @@
 ---
+description: >-
+  The first Decentralized Gym Network - revolutionizing fitness industry with
+  Taraxa
 cover: .gitbook/assets/banner.jpg
 coverY: 0
 layout:
