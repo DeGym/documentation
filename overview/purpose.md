@@ -10,7 +10,7 @@ DeGym DAO aims to revolutionize the fitness industry by leveraging DLT to create
 
 ## 🔭 **Vision**
 
-The vision of DeGym DAO is to establish a global community where fitness enthusiasts can freely access any gym facility without the constraints of traditional membership models. By fostering a system of shared economic benefits, DeGym DAO envisions a future where the boundaries of physical and financial access to fitness are eliminated, making health and wellness more accessible and aligned with modern digital lifestyles. It seamlessly connects gym providers with consumers, enhancing gym engagement and experience.
+The vision of DeGym is to establish a global community where fitness enthusiasts can freely access any gym facility without the constraints of traditional membership models. By fostering a system of shared economic benefits, DeGym envisions a future where the boundaries of physical and financial access to fitness are eliminated, making health and wellness more accessible and aligned with modern digital lifestyles. It seamlessly connects gym providers with consumers, enhancing gym engagement and experience.
 
 ## 🛸 **Long-Term Goals**
 
