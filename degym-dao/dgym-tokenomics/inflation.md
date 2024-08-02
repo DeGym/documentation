@@ -39,14 +39,6 @@ Stakeholders can stake their DGYM tokens to earn rewards. The reward distributio
 
 <figure><img src="../../.gitbook/assets/output.png" alt=""><figcaption></figcaption></figure>
 
-### Functions
-
-* **Stake**: Allows users to stake their DGYM tokens.
-* **Unstake**: Allows users to unstake their DGYM tokens.
-* **CalculateInflationRate**: Calculates the current inflation rate based on the remaining supply ratio.
-* **ApplyInflation**: Applies the calculated inflation by minting new tokens and increasing the total supply.
-* **DistributeInflation**: Distributes the minted tokens among stakeholders based on their stake and duration.
-
 ```mermaid
 %%{init: {'theme': 'forest'}}%%
 graph TD
@@ -62,13 +54,3 @@ graph TD
 ## Conclusion
 
 The DGYM Token's inflation mechanism ensures that the token supply is dynamically regulated while rewarding stakeholders based on their contribution and commitment. The smart contract implementation ensures fairness and transparency in the distribution of rewards.
-
-***
-
-Suggestions for Improvement
-
-* **Dynamic Decay Constant**: Allow the decay constant to be adjusted dynamically based on market conditions.
-* **Enhanced Reward Distribution**: Consider additional factors such as user activity and contribution to the ecosystem for reward distribution.
-* **Governance Mechanism**: Implement a governance mechanism to allow stakeholders to vote on key parameters such as decay constant and inflation interval.
-
-This documentation provides a comprehensive overview of the DGYM Token's inflation mechanism and serves as a guide for understanding and interacting with the smart contract.
