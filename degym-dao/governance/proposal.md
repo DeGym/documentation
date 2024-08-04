@@ -6,11 +6,19 @@ description: Everything you need to know to submit proposals
 
 ## DGIP - DeGym Improvement Proposals <a href="#template" id="template"></a>
 
+Before any proposal goes for voting we create improvement proposals which will be stored on the following repository:
+
 {% embed url="https://github.com/DeGym/DGIP" %}
+
+You can also submit your proposal on our [community discord](https://discord.gg/FtTcGh4q) through the \`#💡\_improvement-proposals \`.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## **Who can create proposals?** <a href="#template" id="template"></a>
 
-Anyone having at least `500,000 $DGYM` tokens can create proposals. All proposals must adhere to the guidelines outlined in this section of the official DeGym DAO Gitbook, the latest published template, and must contain direct & objective descriptions. All other proposals will be deleted for housekeeping purposes.
+Anyone having at least `500,000 $DGYM` tokens may make proposals, but for a proposal to be heard by the council, it needs to reach at least a minimum percentage (to be determined at network launch) of the entire DeGym token supply.
+
+All proposals must adhere to the guidelines outlined in this section of the official DeGym Documentation, the latest published template, and must contain direct & objective descriptions. All other proposals will be deleted for housekeeping purposes.
 
 ## Template
 
