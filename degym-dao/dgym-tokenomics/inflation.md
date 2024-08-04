@@ -43,11 +43,13 @@ Where:
 
 The inflation is applied daily. When the inflation is applied, new tokens are minted and added to the total supply. **The total supply asymptotically approaches the the max supply**.
 
+
+
+<figure><img src="../../.gitbook/assets/temp (3).jpg" alt=""><figcaption></figcaption></figure>
+
 ### Staking and Distribution
 
 Stakeholders can stake their DGYM tokens to earn rewards. The reward distribution is based on the amount staked and the duration for which the tokens are staked. The longer the tokens are staked, the higher the reward.
-
-<figure><img src="../../.gitbook/assets/output.png" alt=""><figcaption></figcaption></figure>
 
 ```mermaid
 %%{init: {'theme': 'forest'}}%%
