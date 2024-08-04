@@ -31,19 +31,19 @@ Decisions are governed by proposals and voting through the voting power of gover
 
 The DAO is the logical compromise between a team or a community-driven protocol, which allows the deployment of competitive products without full centralization and custody of the exchanges.
 
-For the DeGym network to remain healthy and viable in the long-term, it must be adaptable and responsive to the network stakeholders’ demands over time. To that end we propose the following governance model, and welcome feedback from the broader community. For the avoidance of doubt, the right to vote does not entitle DeGym token holders to vote on the operation and management of the Foundation, its affiliates, or their assets, and does not constitute any equity interest in any of these entities.
-
 ## **Council**
+
+For the DeGym network to remain healthy and viable in the long-term, it must be adaptable and responsive to the network stakeholders’ demands over time. To that end we propose the following governance model, and welcome feedback from the broader community. For the avoidance of doubt, the right to vote does not entitle DeGym token holders to vote on the operation and management of the Foundation, its affiliates, or their assets, and does not constitute any equity interest in any of these entities.
 
 Since voter turnout is a persistent problem in almost all electoral systems – including decentralized ecosystems – a council will be elected to represent the interests of passive stakeholders in the DeGym network. These Council Members may determine features and/or parameters of DeGym as well as protocol improvements and new product development, or even changes to the governance process itself.
 
 The size of the council will increase as the network size increases. The size of the council will be determined at network launch, starting with a relatively smaller number and then scaling upward as the network matures.
 
-## **Councils’ Purview**
+### **Purview**
 
 The council will vote on decisions that impact all aspects of the DeGym network, including anything from code upgrades to adjustments to the reward mechanism. These changes will eventually be encoded into each node’s codebase that will automatically enact approved decisions.
 
-## **Council Election**
+### **Election**
 
 The council will be elected via a single transferable vote (STV) system, with the number of votes determined by the number of DeGym tokens held by each voter with a bonding time modifier (see below). This is a widely used voting system to achieve proportional representation through ranked voting for multi-seat organizations. Here’s a simple description of the STV system with a Droop quota.
 
