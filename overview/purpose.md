@@ -6,7 +6,7 @@ description: Mission and Vision of DeGym DAO
 
 ## 🚀 **Mission**
 
-DeGym DAO aims to revolutionize the fitness industry by leveraging DLT to create a decentralized, transparent, and user-centric gym network ecosystem. The mission is to empower gym users with seamless access to a network of gyms worldwide, while also providing gym partners and stakers with fair and incentivized economic opportunities.
+DeGym aims to revolutionize the fitness industry by leveraging public distributed ledger technology to create a decentralized, transparent, and user-centric gym network ecosystem. The mission is to empower gym users with seamless access to a network of gyms worldwide, while also providing gym partners and stakers with fair and incentivized economic opportunities.
 
 ## 🔭 **Vision**
 

@@ -20,7 +20,7 @@ DeGym Network introduces a dynamic and decentralized approach to gym memberships
 
 * **Members Earn Rewards**: Members earn tokens for every workout session, which can be used to access premium services, trade, or stake for additional benefits.
 * **Flexible Memberships**: Memberships are tokenized, allowing users to buy, sell, or rent them on our marketplace. This creates a fluid and adaptable membership model.
-* **Gym Owners Thrive**: Gym owners can attract more members by offering unique incentives and rewards, enhancing their revenue potential.
+* **Gym Owners Thrive**: Gym owners can attract more members by offering their spaces, getting more visibility and earn rewards proportionally, enhancing their revenue potential.
 * **Transparency and Security**: All transactions and memberships are secured on the blockchain, ensuring transparency and trust for all participants.
 
 #### How It Works
@@ -35,4 +35,4 @@ DeGym Network introduces a dynamic and decentralized approach to gym memberships
 
 At the heart of DeGym Network is our vibrant community. We are more than just a platform; we are a movement. Our community is composed of fitness enthusiasts, gym owners, and investors who believe in the power of decentralization and the potential of public distributed ledger technology to create positive change.
 
-Are you ready to be part of the future of fitness? Join DeGym Network today and start your journey towards a more rewarding and flexible fitness experience. Together, we can build a healthier, wealthier, and more connected world.
+Are you ready to be part of the future of fitness? Join DeGym today and start your journey towards a more rewarding and flexible fitness experience. Together, we can build a healthier, wealthier, and more connected world.
