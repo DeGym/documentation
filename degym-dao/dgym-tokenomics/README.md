@@ -20,7 +20,7 @@ There will be inflation (see the section on [Inflation](inflation.md)) which com
 
 **Initial Supply:** 1 Billion.
 
-**Max Supply:** 10 Billion **(takes more than 20 years to reach max-supply)**.
+**Max Supply:** 10 Billion **(It asymptotically approach the Cap accordingly to the** [**inflation**](inflation.md)**)**.
 
 **Token Contract Standard:** ERC20
 
