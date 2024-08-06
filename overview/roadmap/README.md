@@ -7,35 +7,29 @@ description: >-
 
 # 🐢 Roadmap
 
-**Q1: Research & Planning**
+## <mark style="color:green;">PHASE A | Conceptualization & Community Building</mark>
 
-**Month 1:**
+> _`Shaping the Vision and Token Launch`_
 
-* **Market Research:**
-  * Conduct surveys and interviews with potential users (gym providers and consumers).
-  * Analyze competitors and market trends in the fitness and blockchain space.
-* **User Personas:**
-  * Define detailed user personas for Gym Providers and Gym Consumers.
-* **Requirement Gathering:**
-  * Collect and document detailed requirements for the DApp’s functionality.
-
-**Month 2:**
-
-* **Feature Definition:**
-  * Define core features (NFT voucher, staking, check-in, rewards).
-  * Plan gamification elements (badges, leaderboards, challenges).
-* **Technology Stack Decision:**
-  * Select blockchain platform (e.g., Ethereum, Binance Smart Chain).
-  * Choose development frameworks and tools for frontend, backend, and smart contracts.
-
-**Month 3:**
-
-* **Initial Design:**
-  * Create wireframes and mockups for the DApp interface.
-  * Design user journey maps for Gym Providers and Gym Consumers.
-* **Project Planning:**
-  * Develop a detailed project plan with timelines and milestones.
-  * Assemble the development team (blockchain developers, frontend/backend developers, designers).
+* [x] Concept Development
+* [x] Market Research (competitors and market trends in fitness + defi)
+* [ ] Whitepaper drafting
+* [x] Technical documentation
+* [x] Branding and initial design
+* [ ] Online presence
+  * [x] Telegram launch
+  * [x] Discord launch
+  * [x] X launcch
+  * [ ] Medium launch
+  * [ ] Zealy launch
+  * [ ] Galxe launch
+  * [x] Main Website (wireframes and mockups)
+* [ ] Governance
+  * [x] Improvement Proposals (discord & github)
+  * [ ] Voting (snapshot)
+* [ ] Token launch
+* [ ] Pre-seed Sale
+* [ ] Staking Tests
 
 **Q2: Development Phase 1**
 
