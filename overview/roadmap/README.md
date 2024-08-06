@@ -7,7 +7,7 @@ description: >-
 
 # 🐢 Roadmap
 
-## <mark style="color:green;">PHASE A | Conceptualization & Community Building</mark>
+## <mark style="color:green;">PHASE A | Q3-2024 | Conceptualization & Community Building</mark>
 
 > _`Shaping the Vision and Token Launch`_
 
@@ -16,6 +16,7 @@ description: >-
 * [ ] Whitepaper drafting
 * [x] Technical documentation
 * [x] Branding and initial design
+* [x] Integrate Wallet & Chain (Testnet)
 * [ ] Online presence
   * [x] Telegram launch
   * [x] Discord launch
@@ -29,36 +30,45 @@ description: >-
   * [ ] Voting (snapshot)
 * [ ] Token launch
 * [ ] Pre-seed Sale
+* [ ] Smart Conctracts Tests (Staking)
 * [ ] Staking Tests
+* [ ] Private Sale
 
-**Q2: Development Phase 1**
+## <mark style="color:green;">PHASE B | Q4-2024 | Partnerships & Marketing</mark>
 
-**Month 4:**
+> _`Global Visibility and Growth`_
 
-* **Smart Contracts Development:**
-  * Develop and test smart contracts for NFT issuance and staking.
-  * Create smart contracts for the rewards system and gym check-ins.
-* **Frontend Development:**
-  * Start building user interfaces for Gym Providers and Gym Consumers.
-  * Integrate initial wallet functionalities (e.g., MetaMask).
+* [ ] Smart Conctracts Tests (NFT Vouchers, Gym Catalog, Checkins)
+* [ ] Search Engine for near gyms (indexed off-chain)&#x20;
+* [ ] Vouchers marketplace UI (wireframe)
+* [ ] Ecosystem partnerships
+* [ ] DEX Listing
+* [ ] Public sale
+* [ ] Airdrop Campaign
+* [ ] Community engagement
+* [ ] Website Redesign
 
-**Month 5:**
-
-* **Backend Development:**
-  * Develop the backend server and database to manage user data and transactions.
-  * Implement APIs for communication between the frontend and smart contracts.
-* **Integration:**
-  * Integrate smart contracts with the backend and frontend components.
-
-**Month 6:**
+<!---->
 
 * **Feature Implementation:**
-  * Complete core feature development (NFT access, staking, pay-per-access).
-  * Implement gamification elements (badges, leaderboards, challenges).
-* **Initial Testing:**
-  * Conduct unit tests and integration tests for individual components.
+*
 
-**Q3: Development Phase 2 & Testing**
+    * Complete core feature development (NFT access, staking, pay-per-access).
+
+
+
+## <mark style="color:green;">PHASE D | 2025 | Future Enhancements</mark> <a href="#phase-d-or-2025-or-future-enhancements" id="phase-d-or-2025-or-future-enhancements"></a>
+
+> _`Continuous Developmen`_
+
+* [ ] Cross-Chain functionality
+* [ ] Smart Contracts Audits
+* [ ] Smart Contracts integration with UI
+* [ ] Gas optimization techniques
+* [ ] CEX Listing
+* [ ] Global compliance adherence
+* [ ] Economical sustainability initiatives launch
+* [ ] Implement gamification elements (badges, leaderboards, challenges).
 
 **Month 7:**
 
