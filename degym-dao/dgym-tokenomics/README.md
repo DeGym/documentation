@@ -12,7 +12,7 @@ There will be inflation (see the section on [Inflation](inflation.md)) which com
 
 ***
 
-### Token Info
+### <mark style="color:green;">Token Info</mark>
 
 **Token Ticker:** $DGYM
 
@@ -28,7 +28,7 @@ There will be inflation (see the section on [Inflation](inflation.md)) which com
 
 ***
 
-### Utility
+### <mark style="color:green;">Utility</mark>
 
 The $DGYM token serves multiple utility functions within the DeGym's ecosystem, enhancing its intrinsic value and usability. Beyond its fundamental role, $DGYM offers a range of essential utilities and governance opportunities:
 

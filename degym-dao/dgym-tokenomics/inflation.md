@@ -4,7 +4,7 @@ description: This section contains everything about the DGYM inflation
 
 # ♻️ Inflation
 
-## DGYM Token Inflation Mechanism
+## <mark style="color:green;">DGYM Token Inflation Mechanism</mark>
 
 The DGYM Token employs an inflation mechanism **designed to regulate the token supply dynamically**. This document explains how the inflation mechanism works and provides details about the smart contract's behavior.
 
@@ -63,6 +63,6 @@ graph TD
     B -- No --> F
 ```
 
-## Conclusion
+***
 
 The DGYM Token's inflation mechanism ensures that the token supply is dynamically regulated while rewarding stakeholders based on their contribution and commitment. The smart contract implementation ensures fairness and transparency in the distribution of rewards.

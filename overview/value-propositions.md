@@ -15,7 +15,7 @@ Summary: This section describes why you're supposed to use DeGym:
 * **Innovation in Fitness Accessibility**: By providing seamless access to multiple gyms via a single membership model, DeGym increases convenience and potentially boosts gym attendance and fitness commitment among users.
 {% endhint %}
 
-### How can DeGym benefit you?
+### <mark style="color:green;">How can DeGym benefit you?</mark>
 
 DeGym offers significant benefits to various stakeholders in the fitness ecosystem:
 

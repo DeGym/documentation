@@ -8,7 +8,7 @@ description: >-
 
 The reward programs for DGYM and Commercial Tokens in DeGym are designed to incentivize and reward stakeholders based on their participation and commitment to the platform. The DGYM rewards are influenced by the amount staked and the duration of the stake, while the commercial  rewards (derived from the voucher sales) are only based on the amount staked.
 
-## Rewarding DGYM
+## <mark style="color:green;">Rewarding DGYM</mark>
 
 ### Inflow
 
@@ -70,7 +70,7 @@ graph TB
     F --> G[Claim DGYM Not Set to Auto Compound]
 ```
 
-## Rewarding Commercial Token
+## <mark style="color:green;">Rewarding Commercial Token</mark>
 
 ### Inflow
 

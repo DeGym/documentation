@@ -12,7 +12,7 @@ The DAO allow us to work with like-minded folks around the globe without trustin
 
 This opens up so many new opportunities for global collaboration and coordination. **DeGym is managed by the DeGym DAO**. The DAO members govern DeGym to ensure its efficiency and stability. The DeGym DAO should do the following
 
-## Scope & Functions <a href="#scope-of-the-dao" id="scope-of-the-dao"></a>
+## <mark style="color:green;">Scope & Functions</mark> <a href="#scope-of-the-dao" id="scope-of-the-dao"></a>
 
 The DeGym DAO have built-in treasury that no one has the authority to access without the approval of the group. The DeGym DAO should do the following:
 
@@ -31,7 +31,7 @@ Decisions are governed by proposals and voting through the voting power of gover
 
 The DAO is the logical compromise between a team or a community-driven protocol, which allows the deployment of competitive products without full centralization and custody of the exchanges.
 
-## **Council**
+## <mark style="color:green;">**Council**</mark>
 
 For the DeGym network to remain healthy and viable in the long-term, it must be adaptable and responsive to the network stakeholders’ demands over time. To that end we propose the following governance model, and welcome feedback from the broader community. For the avoidance of doubt, the right to vote does not entitle DeGym token holders to vote on the operation and management of the Foundation, its affiliates, or their assets, and does not constitute any equity interest in any of these entities.
 

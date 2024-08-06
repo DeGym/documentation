@@ -6,13 +6,13 @@ description: Pre-Seed, Private Sale, and Public Sale Token Distribution Plan
 
 The DeGym project is embarking on a phased approach to raise funds and distribute tokens, ensuring fair market valuation and rewarding early investors. This document outlines the strategy for the pre-seed, private sale, and public sale phases, including token distribution, pricing, vesting periods, and the future adjustment of token prices.
 
-## Token Generation Event <a href="#token-generation-event" id="token-generation-event"></a>
+## <mark style="color:green;">Token Generation Event</mark> <a href="#token-generation-event" id="token-generation-event"></a>
 
 At the `$DGYM` contract deployment, `1.000.000.000(1 billion)` will be minted (ERC-20) and allocated according to [Allocation](usddgym-tokenomics.md).
 
 ***
 
-## 🌱 Pre-Seed Phase
+## <mark style="color:green;">🌱 Pre-Seed Phase</mark>
 
 * **Token Allocation:** 3% of the total token initial supply (300,000,000 DGYM)
 * **Vesting Period:** To ensure commitment and gradual release of tokens
@@ -31,7 +31,7 @@ At the `$DGYM` contract deployment, `1.000.000.000(1 billion)` will be minted (E
 
 ***
 
-## 🐋 Private-Sale Phase
+## <mark style="color:green;">🐋 Private-Sale Phase</mark>
 
 * **Token Allocation:** 7% of the total token initial supply (700,000,000 DGYM)
 * **Price Adjustment:** The price per token will be 30% higher than the final price from the pre-seed phase
@@ -49,7 +49,7 @@ At the `$DGYM` contract deployment, `1.000.000.000(1 billion)` will be minted (E
 
 ***
 
-## 🌐 Public Sale Phase
+## <mark style="color:green;">🌐 Public Sale Phase</mark>
 
 * **Token Allocation:** 30% of the total token initial supply (3,000,000,000 DGYM)
 * **Objective:** Raise significant funds for further project development, marketing, community building, and operational expense
@@ -67,7 +67,7 @@ At the `$DGYM` contract deployment, `1.000.000.000(1 billion)` will be minted (E
 
 ***
 
-## Summary
+## <mark style="color:green;">Summary</mark>
 
 1. **Pre-Seed Phase:**
    * Allocate 3% of tokens
