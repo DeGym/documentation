@@ -2,7 +2,7 @@
 description: Pre-Seed, Private Sale, and Public Sale Token Distribution Plan
 ---
 
-# 🕧 Generation Phases
+# 🕧 Distribution Phases
 
 The DeGym project is embarking on a phased approach to raise funds and distribute tokens, ensuring fair market valuation and rewarding early investors. This document outlines the strategy for the pre-seed, private sale, and public sale phases, including token distribution, pricing, vesting periods, and the future adjustment of token prices.
 
@@ -21,8 +21,8 @@ At the `$DGYM` contract deployment, `1.000.000.000(1 billion)` will be minted (E
 
 ### Vesting Schedule:
 
-* **End Phase Event:** 10% unlocked immediately (No Cliff)
-* **Monthly Vesting:** Remaining tokens vested over 12 months
+* **End Phase Event:** 2 months
+* **Monthly Vesting:** Remaining tokens vested over 18 months
 
 ### Key Points:
 

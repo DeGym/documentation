@@ -16,7 +16,7 @@
 * [👥 Organization](degym-dao/organization.md)
 * [💲 DGYM Tokenomics](degym-dao/dgym-tokenomics/README.md)
   * [📊 Allocations](degym-dao/dgym-tokenomics/usddgym-tokenomics.md)
-  * [🕧 Generation Phases](degym-dao/dgym-tokenomics/pre-seed.md)
+  * [🕧 Distribution Phases](degym-dao/dgym-tokenomics/pre-seed.md)
   * [♻️ Inflation](degym-dao/dgym-tokenomics/inflation.md)
 * [🎮 Governance](degym-dao/governance/README.md)
   * [💡 Proposal](degym-dao/governance/proposal.md)
