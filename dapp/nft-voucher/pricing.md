@@ -14,7 +14,7 @@ The DeGym NFT-based voucher pricing function is designed to calculate the price 
 The pricing of a voucher is determined by the following formula:
 
 $$
-Price=max(BP​×(1−DR​×(\frac{30}{D}​−1)),MP​×BP​)×T×\frac{30}{D​}
+Price=max(B_P​×(1−D_R​×(\frac{30}{D}​−1)),M_P​×B_P​)×T×\frac{30}{D​}
 $$
 
 Where:
