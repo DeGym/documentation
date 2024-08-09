@@ -25,7 +25,8 @@
 
 ## DAPP
 
-* [🎫 NFT Voucher](dapp/nft-voucher.md)
+* [🎫 NFT Voucher](dapp/nft-voucher/README.md)
+  * [Pricing](dapp/nft-voucher/pricing.md)
 * [🔍 Search Gyms](dapp/search-gyms.md)
 * [🧘‍♂️ Consumer](dapp/consumer.md)
 * [🗿 Provider](dapp/provider.md)
