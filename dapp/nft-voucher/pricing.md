@@ -9,7 +9,7 @@ description: >-
 
 The DeGym NFT-based voucher pricing function is designed to calculate the price of a voucher based on two primary factors: **tier** and **durability**. The pricing model also includes a decay factor, which adjusts the price over time to ensure fairness and incentivize early purchases. The pricing model rewards users who opt for longer durations, offering better value as the duration increases.
 
-## System Parameters
+## <mark style="color:green;">System Parameters</mark>
 
 The following parameters are internal voucher parameters in the respective of a given ERC20 token  determined by the DAO (commercial tokens), which can be changed anytime by voting mechanism:
 
@@ -17,7 +17,7 @@ The following parameters are internal voucher parameters in the respective of a 
 * $$M_P$$: MIN\_BASE\_PRICE\_FACTOR — the factor determining the minimum allowable base price.
 * $$D_R$$: DECAY\_RATE — the rate at which the base price decreases as the duration increases.
 
-## **Function**
+## <mark style="color:green;">**Function**</mark>
 
 The pricing of a voucher is determined by the following formula:
 
