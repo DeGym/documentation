@@ -1,10 +1,33 @@
 ---
+icon: function
 description: >-
   This document provides a detailed explanation of how the voucher's price
   calculation work
-icon: function
 ---
 
 # Pricing
 
-The DeGym NFT-based voucher prici ng function is designed to calculate the price of a voucher based on two primary factors: **tier** and **durability**. The pricing model also includes a decay factor, which adjusts the price over time to ensure fairness and incentivize early purchases.
+The DeGym NFT-based voucher pricing function is designed to calculate the price of a voucher based on two primary factors: **tier** and **durability**. The pricing model also includes a decay factor, which adjusts the price over time to ensure fairness and incentivize early purchases. The pricing model rewards users who opt for longer durations, offering better value as the duration increases.
+
+## **Function**
+
+The pricing of a voucher is determined by the following formula:
+
+$$
+Price=max(BP​×(1−DR​×(\frac{30}{D}​−1)),MP​×BP​)×T×\frac{30}{D​}
+$$
+
+Where:
+
+* $$B_P$$: BASIC\_PRICE — the base price for a 1-month voucher in the respective token.
+* $$M_P$$: MIN\_BASE\_PRICE\_FACTOR — the factor determining the minimum allowable base price.
+* $$D_R$$: DECAY\_RATE — the rate at which the base price decreases as the duration increases.
+* $$T$$:  tier — the tier level of the voucher, which acts as a multiplier.
+* $$D$$:  duration — the duration of the voucher in days.
+
+This formula calculates the voucher price by:
+
+1. Adjusting the base price based on the duration. The longer the duration, the more favorable the pricing.
+2. Ensuring that the price does not fall below a certain threshold, which is determined by the minimum base price factor.
+3. Multiplying by the tier and the normalized duration to arrive at the final price.
+
