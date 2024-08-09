@@ -13,9 +13,9 @@ The DeGym NFT-based voucher pricing function is designed to calculate the price 
 
 The following parameters are internal voucher parameters in the respective of a given ERC20 token  determined by the DAO (commercial tokens), which can be changed anytime by voting mechanism:
 
-* $$B_P$$: BASIC\_PRICE — the base price for a 1-month.
-* $$M_P$$: MIN\_BASE\_PRICE\_FACTOR — the factor determining the minimum allowable base price.
-* $$D_R$$: DECAY\_RATE — the rate at which the base price decreases as the duration increases.
+* $$B_P$$: BASE\_MONTHLY\_PRICE — the base price for a 1-month.
+* $$M_P$$: MIN\_PRICE\_FACTOR — The minimum percentage of the base price allowed.
+* $$D_R$$: PRICE\_DECAY\_RATE — The rate at which the price decreases as the duration increases.
 
 ## <mark style="color:green;">**Function**</mark>
 
