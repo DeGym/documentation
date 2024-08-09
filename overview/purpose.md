@@ -4,13 +4,21 @@ description: Mission and Vision of DeGym DAO
 
 # 🎯 Purpose
 
-## 🚀 <mark style="color:green;">**Mission**</mark>
-
-DeGym aims to revolutionize the fitness industry by leveraging public distributed ledger technology to create a decentralized, transparent, and user-centric gym network ecosystem. The mission is to empower gym users with seamless access to a network of gyms worldwide, while also providing gym partners and stakers with fair and incentivized economic opportunities.
-
 ## 🔭 <mark style="color:green;">**Vision**</mark>
 
-The vision of DeGym is to establish a global community where fitness enthusiasts can freely access any gym facility without the constraints of traditional membership models. By fostering a system of shared economic benefits, DeGym envisions a future where the boundaries of physical and financial access to fitness are eliminated, making health and wellness more accessible and aligned with modern digital lifestyles. It seamlessly connects gym providers with consumers, enhancing gym engagement and experience.
+At DeGym, we envision a world where fitness is universally accessible and inclusive, empowering both users and gym owners. Our goal is to create a global community where fitness enthusiasts can access any gym, anytime, anywhere, without traditional barriers.
+
+We aim to promote small and independent gyms by providing them with the tools and platform to gain traction and thrive. By leveraging blockchain technology, we ensure a transparent, secure, and flexible check-in system, allowing gym owners to receive payments in their preferred tokenized currencies.
+
+This vision drives us to eliminate physical and financial constraints, making health and wellness seamlessly integrated into modern web 3.0 lifestyles.
+
+## 🚀 <mark style="color:green;">**Mission**</mark>
+
+Our mission is to revolutionize the fitness industry by building a decentralized, transparent, and user-centric gym access ecosystem. We empower users with seamless, global access to a diverse network of gyms, while offering gym owners the flexibility to accept payments in multiple digital currencies, enhancing their business potential.
+
+We are committed to promoting small gyms, ensuring they have equal opportunities to attract and retain members.
+
+Additionally, DeGym provides partners and stakers with fair and incentivized economic opportunities, fostering a collaborative community focused on promoting health, well-being, and active lifestyles worldwide.
 
 ## 🛸 <mark style="color:green;">**Long-Term Goals**</mark>
 
