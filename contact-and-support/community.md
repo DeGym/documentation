@@ -4,13 +4,15 @@ description: Join Us
 
 # 📣 Community
 
-{% embed url="https://degym.vercel.app/" %}
+{% embed url="https://degym.net" %}
 
-{% embed url="https://x.com/degym_network" %}
+{% embed url="https://degym.net/discord" %}
 
-{% embed url="https://t.me/degym_dao" %}
+{% embed url="https://degym.net/x" %}
 
-{% embed url="https://discord.gg/4keCvDRNuY" %}
+{% embed url="https://degym.net/telegram" %}
+
+
 
 Blog: coming soon
 
