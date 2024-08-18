@@ -22,6 +22,7 @@
   * [Proposal](degym-dao/governance/proposal.md)
   * [Voting](degym-dao/governance/voting.md)
 * [Terms & Conditions](degym-dao/terms-and-conditions.md)
+* [Disclaimer](degym-dao/disclaimer.md)
 
 ## 🟢 DAPP
 
