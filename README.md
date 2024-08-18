@@ -10,11 +10,11 @@ Imagine a world where your commitment to fitness is not just a personal achievem
 
 DeGym Network was born from the realization that the fitness industry is ripe for disruption. Traditional gym memberships and fitness programs often come with limitations and inefficiencies that frustrate both gym-goers and gym owners. Our founders, a group of fitness enthusiasts and blockchain experts, saw the potential to transform this space by integrating DeFi principles with fitness.
 
-## The Problem
+## <mark style="color:green;">The Problem</mark>
 
 In the traditional fitness world, gym memberships are static and rigid. Members pay a fixed fee, regardless of how often they use the facilities. Gym owners struggle to maintain profitability, especially during times of economic uncertainty or health crises. There’s a lack of flexibility and reward for actual participation and commitment.
 
-## The Solution
+## <mark style="color:green;">The Solution</mark>
 
 DeGym Network introduces a dynamic and decentralized approach to gym memberships and fitness rewards. Using distributed ledger technology, we have created a platform where:
 
@@ -23,7 +23,7 @@ DeGym Network introduces a dynamic and decentralized approach to gym memberships
 * **Gym Owners Thrive**: Gym owners can attract more members by offering their spaces, getting more visibility and earn rewards proportionally, enhancing their revenue potential.
 * **Transparency and Security**: All transactions and memberships are secured on the blockchain, ensuring transparency and trust for all participants.
 
-#### How It Works
+## <mark style="color:green;">How It Works?</mark>
 
 1. **Join the Network**: Sign up on DeGym DApp connecting your web3 wallet (ensure that you are connected to [taraxa mainnet](https://docs.taraxa.io/wallet)).
 2. **Acquire your NFT Voucher**: Purchase NFT voucher that suit your fitness needs.
