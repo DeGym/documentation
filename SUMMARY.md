@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 
-## Overview
+## 🟢 Overview
 
 * [Decentralized Gym Network](<README (1).md>)
 * [Purpose](overview/purpose.md)
@@ -11,7 +11,7 @@
   * [Q3 2024](overview/roadmap/q3-2024.md)
 * [Brand Assets](overview/brand-assets.md)
 
-## DeGym DAO
+## 🟢 DeGym DAO
 
 * [Organization](degym-dao/organization.md)
 * [DGYM Tokenomics](degym-dao/dgym-tokenomics/README.md)
@@ -23,7 +23,7 @@
   * [Voting](degym-dao/governance/voting.md)
 * [Terms & Conditions](degym-dao/terms-and-conditions.md)
 
-## DAPP
+## 🟢 DAPP
 
 * [NFT Voucher](dapp/nft-voucher/README.md)
   * [Pricing](dapp/nft-voucher/pricing.md)
@@ -35,7 +35,7 @@
   * [Staker](dapp/staking/staker.md)
   * [Reward](dapp/staking/reward-program.md)
 
-## Technical
+## 🟢 Technical
 
 * [Smart Contracts](technical/smart-contracts.md)
 * [Whitepaper](technical/whitepaper.md)
@@ -44,6 +44,6 @@
 
 * [Users](faqs/question-foobar.md)
 
-## Contact and Support
+## 🟢 Contact and Support
 
 * [Community](contact-and-support/community.md)
