@@ -2,9 +2,10 @@
 description: >-
   Initial Allocation Plan - Percentages based on the original 1bn supply
   (Initial Supply)
+icon: chart-pie
 ---
 
-# 📊 Allocations
+# Allocations
 
 Explore the comprehensive allocation plan for the DeGym **$DGYM** token, designed to empower our community and drive healthy on Taraxa:
 

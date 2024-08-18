@@ -3,9 +3,10 @@ description: >-
   Here is a detailed roadmap to guide the project from inception to launch and
   beyond. This roadmap is divided into quarters, with key milestones and
   activities for each period.
+icon: map-location-dot
 ---
 
-# 🐢 Roadmap
+# Roadmap
 
 ## <mark style="color:green;">PHASE A | Q3-2024 | Conceptualization & Community Building</mark>
 

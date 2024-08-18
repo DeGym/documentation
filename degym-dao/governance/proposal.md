@@ -1,8 +1,9 @@
 ---
 description: Everything you need to know to submit proposals
+icon: lightbulb-on
 ---
 
-# 💡 Proposal
+# Proposal
 
 ## <mark style="color:green;">DGIP - DeGym Improvement Proposals</mark> <a href="#template" id="template"></a>
 

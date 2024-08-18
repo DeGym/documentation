@@ -2,9 +2,10 @@
 description: >-
   DeGym DAO presents several compelling value propositions that can redefine gym
   access and the fitness industry:
+icon: sparkles
 ---
 
-# 💫 Value Propositions
+# Value Propositions
 
 {% hint style="info" %}
 Summary: This section describes why you're supposed to use DeGym:

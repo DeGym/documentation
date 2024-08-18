@@ -1,8 +1,9 @@
 ---
 description: Step by step guide to DeGym governance voting on snapshot.org
+icon: bolt-lightning
 ---
 
-# ⚡ Voting
+# Voting
 
 ### <mark style="color:green;">1. Go to snapshot.org</mark> <a href="#id-1.-go-to-snapshot.org" id="id-1.-go-to-snapshot.org"></a>
 

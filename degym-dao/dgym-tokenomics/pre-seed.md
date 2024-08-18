@@ -1,8 +1,9 @@
 ---
 description: Pre-Seed, Private Sale, and Public Sale Token Distribution Plan
+icon: chart-network
 ---
 
-# 🕧 Distribution Phases
+# Distribution Phases
 
 The DeGym project is embarking on a phased approach to raise funds and distribute tokens, ensuring fair market valuation and rewarding early investors. This document outlines the strategy for the pre-seed, private sale, and public sale phases, including token distribution, pricing, vesting periods, and the future adjustment of token prices.
 

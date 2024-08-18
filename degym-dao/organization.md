@@ -1,8 +1,9 @@
 ---
 description: A collectively-owned organization working towards a shared mission.
+icon: people-group
 ---
 
-# 👥 Organization
+# Organization
 
 DAO is self-governing organization that operate on smart contracts, allowing for transparent decision-making and governance.
 

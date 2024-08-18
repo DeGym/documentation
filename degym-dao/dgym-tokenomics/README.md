@@ -1,8 +1,9 @@
 ---
 description: First and foremost a governance token with lots of utility
+icon: dollar-sign
 ---
 
-# 💲 DGYM Tokenomics
+# DGYM Tokenomics
 
 Note: this is a _**preliminary outline**_ of the overall intent for the DeGym DAO's economics. These designs will be finalized at dapp launch via the governance process by stakeholders from the community, and they are subject to alterations via the same process.
 

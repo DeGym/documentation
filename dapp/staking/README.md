@@ -2,9 +2,10 @@
 description: >-
   Here, you can easily stake new tokens, monitor your current stakes, and claim
   rewards
+icon: coins
 ---
 
-# 🔒 Staking
+# Staking
 
 The DeGym Staking Product is designed to provide a seamless experience for users looking to stake their DGYM tokens, earn rewards, and manage their staking pools.&#x20;
 

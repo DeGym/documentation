@@ -1,8 +1,9 @@
 ---
 description: This section contains everything about the DGYM inflation
+icon: money-bill-trend-up
 ---
 
-# ♻️ Inflation
+# Inflation
 
 ## <mark style="color:green;">DGYM Token Inflation Mechanism</mark>
 

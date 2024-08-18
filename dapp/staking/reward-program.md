@@ -1,8 +1,9 @@
 ---
 description: This document provides an overview of how rewarding mechanism work
+icon: gem
 ---
 
-# 💎 Reward
+# Reward
 
 The reward programs for DGYM in DeGym are designed to incentivize and reward stakeholders based on their participation and commitment to the platform. The DGYM rewards are influenced by the amount staked and the duration of the stake.
 

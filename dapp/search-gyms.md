@@ -1,8 +1,9 @@
 ---
 description: Finding the right gym has never been easier.
+icon: globe-pointer
 ---
 
-# 🔍 Search Gyms
+# Search Gyms
 
 The DeGym Search Product offers a powerful and user-friendly way to find gyms that match your preferences. With advanced filtering options, detailed gym listings, and a dynamic map view, locating the perfect gym has never been easier.
 

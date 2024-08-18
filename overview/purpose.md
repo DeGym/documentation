@@ -1,8 +1,9 @@
 ---
 description: Mission and Vision of DeGym DAO
+icon: crosshairs
 ---
 
-# 🎯 Purpose
+# Purpose
 
 ## 🔭 <mark style="color:green;">**Vision**</mark>
 

@@ -1,8 +1,9 @@
 ---
 description: Detailed Check-in Process Using Smart Contracts
+icon: square-check
 ---
 
-# ✅ Check-in
+# Check-in
 
 
 

@@ -1,8 +1,9 @@
 ---
 description: Join Us
+icon: globe-wifi
 ---
 
-# 📣 Community
+# Community
 
 {% embed url="https://degym.net" %}
 

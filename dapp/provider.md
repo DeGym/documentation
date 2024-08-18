@@ -2,9 +2,10 @@
 description: >-
   Reach a broader audience and increase your gym’s visibility and membership
   base.
+icon: dumbbell
 ---
 
-# 🗿 Provider
+# Provider
 
 As a Provider on the DeGym Network, your journey starts with registering your gym or fitness center on the platform. You create a detailed profile highlighting your facilities, services, and which voucher do your gym accept for check-in. This profile is then accessible to all users on the DeGym platform.
 

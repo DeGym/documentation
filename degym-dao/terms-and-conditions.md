@@ -1,8 +1,9 @@
 ---
 description: Terms of Service for DeGym DAO
+icon: file-signature
 ---
 
-# 📜 Terms & Conditions
+# Terms & Conditions
 
 Effective Date: 01.09.2024
 

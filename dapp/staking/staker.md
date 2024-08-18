@@ -1,4 +1,8 @@
-# 🤩 Staker
+---
+icon: hand-holding-circle-dollar
+---
+
+# Staker
 
 Stakers in DeGym DAO contribute by locking their DGYM tokens into the system. This staking not only supports the stability and security of the platform but also entitles stakers to various benefits.
 

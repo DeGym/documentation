@@ -1,4 +1,8 @@
-# 🎫 NFT Voucher
+---
+icon: ticket-simple
+---
+
+# NFT Voucher
 
 ## Nature and Functionality
 

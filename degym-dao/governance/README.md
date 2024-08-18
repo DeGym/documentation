@@ -1,4 +1,8 @@
-# 🎮 Governance
+---
+icon: gavel
+---
+
+# Governance
 
 DeGym's governance is an evolving process that aims to eventually achieve what's described in the [Organization](../organization.md). For now, governance for major decisions in the ecosystem will go through an on-chain, direct-election governance vote where DGYM holders directly decide the direction the ecosystem takes.
 
