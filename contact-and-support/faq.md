@@ -1,8 +1,9 @@
 ---
-description: FAQ for users
+description: Frequently Asked Questions
+icon: circle-question
 ---
 
-# Users
+# FAQ
 
 ## **Is DeGym Available globally?**
 

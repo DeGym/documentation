@@ -11,18 +11,18 @@
   * [Q3 2024](overview/roadmap/q3-2024.md)
 * [Brand Assets](overview/brand-assets.md)
 
-## 🟢 DeGym DAO
+## 🟢 DAO
 
-* [Organization](degym-dao/organization.md)
-* [DGYM Tokenomics](degym-dao/dgym-tokenomics/README.md)
-  * [Allocations](degym-dao/dgym-tokenomics/usddgym-tokenomics.md)
-  * [Distribution Phases](degym-dao/dgym-tokenomics/pre-seed.md)
-  * [Inflation](degym-dao/dgym-tokenomics/inflation.md)
-* [Governance](degym-dao/governance/README.md)
-  * [Proposal](degym-dao/governance/proposal.md)
-  * [Voting](degym-dao/governance/voting.md)
-* [Terms & Conditions](degym-dao/terms-and-conditions.md)
-* [Disclaimer](degym-dao/disclaimer.md)
+* [Organization](dao/organization.md)
+* [DGYM Tokenomics](dao/dgym-tokenomics/README.md)
+  * [Allocations](dao/dgym-tokenomics/usddgym-tokenomics.md)
+  * [Distribution Phases](dao/dgym-tokenomics/pre-seed.md)
+  * [Inflation](dao/dgym-tokenomics/inflation.md)
+* [Governance](dao/governance/README.md)
+  * [Proposal](dao/governance/proposal.md)
+  * [Voting](dao/governance/voting.md)
+* [Terms & Conditions](dao/terms-and-conditions.md)
+* [Disclaimer](dao/disclaimer.md)
 
 ## 🟢 DAPP
 
@@ -41,10 +41,7 @@
 * [Smart Contracts](technical/smart-contracts.md)
 * [Whitepaper](technical/whitepaper.md)
 
-## ❔ FAQs
-
-* [Users](faqs/question-foobar.md)
-
 ## 🟢 Contact and Support
 
 * [Community](contact-and-support/community.md)
+* [FAQ](contact-and-support/faq.md)

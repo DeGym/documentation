@@ -1,6 +1,6 @@
 ---
-description: This document provides an overview of how rewarding mechanism work
 icon: gem
+description: This document provides an overview of how rewarding mechanism work
 ---
 
 # Reward
@@ -11,7 +11,7 @@ The reward programs for DGYM in DeGym are designed to incentivize and reward sta
 
 ### Inflow
 
-Inflows of DGYM are generated through [inflation](../../degym-dao/dgym-tokenomics/inflation.md).
+Inflows of DGYM are generated through [inflation](../../dao/dgym-tokenomics/inflation.md).
 
 ### Distribution
 
