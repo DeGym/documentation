@@ -31,8 +31,8 @@ DeGym Network introduces a dynamic and decentralized approach to gym memberships
 4. **Trade and Stake**: Use your tokens to access exclusive services, trade them on our marketplace, or stake them for additional rewards.
 5. **Enjoy the Benefits**: Experience the flexibility, transparency, and rewards that come with being part of the DeGym community.
 
-#### The Community
-
-At the heart of DeGym Network is our vibrant community. We are more than just a platform; we are a movement. Our community is composed of fitness enthusiasts, gym owners, and investors who believe in the power of decentralization and the potential of public distributed ledger technology to create positive change.
-
 Are you ready to be part of the future of fitness? Join DeGym today and start your journey towards a more rewarding and flexible fitness experience. Together, we can build a healthier, wealthier, and more connected world.
+
+
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td>Decentralized Gym Network</td><td></td><td><a href="README (1).md">README (1).md</a></td><td><a href=".gitbook/assets/banner.jpg">banner.jpg</a></td></tr><tr><td></td><td>DAO</td><td></td><td><a href="dao/organization.md">organization.md</a></td><td><a href=".gitbook/assets/banner.jpg">banner.jpg</a></td></tr><tr><td></td><td>Purpose</td><td></td><td><a href="overview/purpose.md">purpose.md</a></td><td><a href=".gitbook/assets/banner.jpg">banner.jpg</a></td></tr></tbody></table>
