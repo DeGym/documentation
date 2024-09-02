@@ -1,6 +1,6 @@
 ---
-description: Mission and Vision of DeGym DAO
 icon: crosshairs
+description: Mission and Vision of DeGym DAO
 ---
 
 # Purpose
@@ -21,7 +21,15 @@ We are committed to promoting small gyms, ensuring they have equal opportunities
 
 Additionally, DeGym provides partners and stakers with fair and incentivized economic opportunities, fostering a collaborative community focused on promoting health, well-being, and active lifestyles worldwide.
 
-## 🛸 <mark style="color:green;">**Long-Term Goals**</mark>
+## <mark style="color:green;">Approach</mark>
+
+With extensive experience in both the technical and managerial facets of crypto, we are now developing a new, self-sustaining decentralized autonomous gym network that **prioritizes the community over private investors and VCs**. Our project is designed with the everyday investor in mind, aiming to be as inclusive as possible.
+
+For strategic and legal reasons, we maintain our anonymity. The complexities of blockchain creation, token issuance, and the sales process demand careful navigation of the evolving legal landscape. We anticipate revealing our identities and past achievements as the project solidifies and the regulatory environment becomes clearer.
+
+We are already in discussions with potential collaborators who share our vision of building not just a DAO, but a movement that empowers its community. The DeGym team is dedicated to transparency, innovation, and the democratization of gym access.
+
+## <mark style="color:green;">**Long-Term Goals**</mark>
 
 * **Simplify Gym Access:** Enable users to effortlessly access gyms through NFTs and staking.
 * **Technological Advancements**: Continuously integrate the latest DLT and fitness technology to enhance user experiences and operational efficiency.

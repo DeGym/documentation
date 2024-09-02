@@ -1,8 +1,8 @@
 ---
+icon: sparkles
 description: >-
   DeGym DAO presents several compelling value propositions that can redefine gym
   access and the fitness industry:
-icon: sparkles
 ---
 
 # Value Propositions
@@ -16,7 +16,7 @@ Summary: This section describes why you're supposed to use DeGym:
 * **Innovation in Fitness Accessibility**: By providing seamless access to multiple gyms via a single membership model, DeGym increases convenience and potentially boosts gym attendance and fitness commitment among users.
 {% endhint %}
 
-### <mark style="color:green;">How can DeGym benefit you?</mark>
+## <mark style="color:green;">How can DeGym benefit you?</mark>
 
 DeGym offers significant benefits to various stakeholders in the fitness ecosystem:
 
