@@ -28,6 +28,7 @@
 
 * [NFT Voucher](dapp/nft-voucher/README.md)
   * [Pricing](dapp/nft-voucher/pricing.md)
+  * [Daily Checkin Points](dapp/nft-voucher/daily-checkin-points.md)
 * [Search Gyms](dapp/search-gyms.md)
 * [Consumer](dapp/consumer.md)
 * [Provider](dapp/provider.md)
