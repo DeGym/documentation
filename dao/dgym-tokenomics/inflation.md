@@ -1,9 +1,11 @@
 ---
-description: This section contains everything about the DGYM inflation
 icon: money-bill-trend-up
+description: This section contains everything about the DGYM inflation
 ---
 
 # Inflation
+
+Stakeholders can stake their DGYM tokens to earn rewards. The reward distribution is based on the amount staked and the duration for which the tokens are staked. The longer the tokens are staked, the higher the reward. These rewards are generated through the inflation explained in this document.
 
 ## <mark style="color:green;">DGYM Token Inflation Mechanism</mark>
 
@@ -46,24 +48,12 @@ The inflation is applied daily. When the inflation is applied, new tokens are mi
 
 
 
-<figure><img src="../../.gitbook/assets/temp (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/temp (1).jpg" alt=""><figcaption><p>Total Supply and Inflation Rate Over Time</p></figcaption></figure>
 
-### Staking and Distribution
+## <mark style="color:green;">**Impact of Inflation on the Economy**</mark> <a href="#impact-of-inflation-on-the-economy" id="impact-of-inflation-on-the-economy"></a>
 
-Stakeholders can stake their DGYM tokens to earn rewards. The reward distribution is based on the amount staked and the duration for which the tokens are staked. The longer the tokens are staked, the higher the reward.
+The DeGym's inflation model is meticulously designed to balance new token creation with economic incentives for stakeholders. By adjusting block rewards and modeling inflation rates, DeGym aims to encourage network security and participation while gradually transitioning to a more stable token economy. This approach not only secures the network but also aims at a fair distribution of rewards, thereby ensuring the long-term viability and value of the DGYM token.
 
-```mermaid
-%%{init: {'theme': 'forest'}}%%
-graph TD
-    A[Start] --> B{Inflation Interval Reached?}
-    B -- Yes --> C[Calculate Inflation Rate]
-    C --> D[Mint New Tokens]
-    D --> E[Distribute Tokens Based on Stake and Duration]
-    E --> F[End]
+DeGym's innovative approach to managing inflation through its tokenomics and reward systems demonstrates a sophisticated understanding of DAO economy dynamics. The daily reduction in rewards and carefully calibrated inflation rate are central to DeGym's strategy for creating a stable and sustainable economic model that benefits stakeholders and the broader ecosystem.&#x20;
 
-    B -- No --> F
-```
-
-***
-
-The DGYM Token's inflation mechanism ensures that the token supply is dynamically regulated while rewarding stakeholders based on their contribution and commitment. The smart contract implementation ensures fairness and transparency in the distribution of rewards.
+The DGYM Token's inflation mechanism ensures that the token supply is dynamically regulated while rewarding stakeholders based on their contribution and commitment. The smart contract implementation **ensures fairness and transparency** in the distribution of rewards.
