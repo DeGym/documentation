@@ -1,14 +1,14 @@
 ---
+icon: map-location-dot
 description: >-
   Here is a detailed roadmap to guide the project from inception to launch and
   beyond. This roadmap is divided into quarters, with key milestones and
   activities for each period.
-icon: map-location-dot
 ---
 
 # Roadmap
 
-## <mark style="color:green;">PHASE A | Q3-2024 | Conceptualization & Community Building</mark>
+## <mark style="color:green;">PHASE A | Q1-2025 | Conceptualization & Community Building</mark>
 
 > _`Shaping the Vision and Token Launch`_
 
@@ -35,7 +35,7 @@ icon: map-location-dot
 * [ ] Staking Tests
 * [ ] Private Sale
 
-## <mark style="color:green;">PHASE B | Q4-2024 | Partnerships & Marketing</mark>
+## <mark style="color:green;">PHASE B | Q2-2025 | Partnerships & Marketing</mark>
 
 > _`Global Visibility and Growth`_
 
@@ -49,16 +49,14 @@ icon: map-location-dot
 * [ ] Community engagement
 * [ ] Website Redesign
 
-<!---->
-
-* **Feature Implementation:**
-*
+- **Feature Implementation:**
+-
 
     * Complete core feature development (NFT access, staking, pay-per-access).
 
 
 
-## <mark style="color:green;">PHASE D | 2025 | Future Enhancements</mark> <a href="#phase-d-or-2025-or-future-enhancements" id="phase-d-or-2025-or-future-enhancements"></a>
+## <mark style="color:green;">PHASE D | Q3-2025 | Future Enhancements</mark> <a href="#phase-d-or-2025-or-future-enhancements" id="phase-d-or-2025-or-future-enhancements"></a>
 
 > _`Continuous Developmen`_
 

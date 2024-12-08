@@ -8,7 +8,7 @@
 * [Purpose](overview/purpose.md)
 * [Value Propositions](overview/value-propositions.md)
 * [Roadmap](overview/roadmap/README.md)
-  * [Q3 2024](overview/roadmap/q3-2024.md)
+  * [Q1 2025](overview/roadmap/q3-2024.md)
 * [Brand Assets](overview/brand-assets.md)
 
 ## 🟢 DAO
