@@ -8,7 +8,9 @@
 * [Purpose](overview/purpose.md)
 * [Value Propositions](overview/value-propositions.md)
 * [Roadmap](overview/roadmap/README.md)
-  * [Q1 2025](overview/roadmap/q3-2024.md)
+  * [PHASE A | Conceptualization & Community Building](overview/roadmap/q3-2024.md)
+  * [PHASE B | Partnerships & Marketing](overview/roadmap/phase-b-or-partnerships-and-marketing.md)
+  * [PHASE D | Future Enhancements](overview/roadmap/phase-d-or-future-enhancements.md)
 * [Brand Assets](overview/brand-assets.md)
 
 ## 🟢 DAO
